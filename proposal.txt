@@ -1,0 +1,64 @@
+🧠 NEXT STEPS: MY PROPOSAL
+1. Audit & Upgrade scraper.py
+ Add a scraper log (logs/) to track run stats
+
+ Verify dynamic pagination (in case site structure changes)
+
+ Ensure all extracted fields match site (e.g., hidden tags like data-*)
+
+2. Refactor Data Layer
+ Create a models.py to handle DB inserts, fetches, average calc
+
+ Add unique constraints to avoid duplicate entries
+
+3. Build Analysis Engine
+ Create analyser.py to:
+
+Compute 3/5-day rolling averages
+
+Compare today's data
+
+Tag stocks as Accumulation / Distribution
+
+Store flags in DB
+
+4. Design Streamlit Dashboard
+ Page: “Daily Watchlist”
+
+📈 Accumulation Signals
+
+📉 Distribution Warnings
+
+ Filters:
+
+Volume change %
+
+Trade count anomaly
+
+Date range
+
+ Mini charts (sparkline with price trend)
+
+5. Stretch Goals
+ Telegram alert via bot token
+
+ CSV export of daily flagged stocks
+
+ Add “Settings” tab to configure thresholds (e.g., 1.5x volume spike)
+
+📁 FOLDER STRUCTURE PROPOSAL (UPDATED)
+bash
+Copy
+Edit
+ngx_tracker/
+│
+├── scraper.py               # Scrape & save raw data
+├── analyser.py              # Signal tagging engine
+├── app.py                   # Streamlit dashboard
+├── data/
+│   └── ngx_equities.db      # SQLite database
+├── logs/
+│   └── scraper_log.txt      # Log scraper runs
+├── screenshots/             # If scraper fails
+├── models.py                # DB handling + logic
+├── utils.py                 # Helper functions (e.g., date log
