@@ -1,0 +1,62 @@
+try:
+        stock = yf.Ticker(ticker)
+        info = stock.info
+        market_cap = info.get("marketCap", None)
+        results.append({"Ticker": ticker, "MarketCap": market_cap})
+    except Exception:
+        results.append({"Ticker": ticker, "MarketCap": None})
+
+
+
+SELECT 
+    curr.name,
+    curr.date,
+    curr.close,
+    curr.volume,
+    prev.date AS prev_date,
+    prev.close AS prev_close,
+    prev.volume AS prev_volume
+FROM equities AS curr
+JOIN equities AS prev
+  ON curr.name = prev.name
+ AND DATE(curr.date) > DATE(prev.date)
+WHERE 
+  curr.name like '%champ%'                         -- 🔍 limit to specific stock
+  AND DATE(curr.date) = (
+      SELECT MIN(DATE(date)) 
+      FROM equities 
+      WHERE name = curr.name 
+        AND DATE(date) > DATE(prev.date)
+  )
+  AND DATE(curr.date) >= '2025-03-01'             -- 📅 restrict to March 1 onward
+  AND ABS(curr.close - prev.close) <= 0.05        -- 📊 small price change
+  AND curr.volume > prev.volume                   -- 🔺 volume increase
+ORDER BY curr.date DESC;
+
+
+
+x2 
+SELECT 
+    curr.name,
+    curr.date,
+    curr.close,
+    curr.volume,
+    prev.date AS prev_date,
+    prev.close AS prev_close,
+    prev.volume AS prev_volume
+FROM equities AS curr
+JOIN equities AS prev
+  ON curr.name = prev.name
+ AND DATE(curr.date) > DATE(prev.date)
+WHERE 
+  curr.name like '%champ%'                         -- 🔍 limit to specific stock
+  AND DATE(curr.date) = (
+      SELECT MIN(DATE(date)) 
+      FROM equities 
+      WHERE name = curr.name 
+        AND DATE(date) > DATE(prev.date)
+  )
+  AND DATE(curr.date) >= '2025-03-01'             -- 📅 restrict to March 1 onward
+  AND ABS(curr.close - prev.close) <= 0.05        -- 📊 small price change
+  AND curr.volume > prev.volume                   -- 🔺 volume increase
+ORDER BY curr.date DESC;

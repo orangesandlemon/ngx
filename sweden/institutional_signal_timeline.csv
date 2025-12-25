@@ -1,0 +1,2183 @@
+name,date,signal
+AAK.ST,2025-05-13,watchlist
+AAK.ST,2025-05-14,buy
+AAK.ST,2025-05-30,reset (expired)
+AAK.ST,2025-06-02,buy
+AAK.ST,2025-06-19,reset (expired)
+AAK.ST,2025-06-23,watchlist
+AAK.ST,2025-07-04,buy
+AAK.ST,2025-07-21,reset (expired)
+AAK.ST,2025-07-25,buy
+AAK.ST,2025-08-05,watchlist
+ABB.ST,2025-05-13,watchlist
+ABB.ST,2025-05-14,buy
+ABB.ST,2025-05-30,reset (expired)
+ABB.ST,2025-06-03,buy
+ABB.ST,2025-06-19,reset (expired)
+ABB.ST,2025-06-26,buy
+ABB.ST,2025-07-17,reset (expired)
+ABB.ST,2025-07-18,buy
+ABB.ST,2025-08-04,reset (expired)
+ABB.ST,2025-08-05,buy
+ACAD.ST,2025-05-13,watchlist
+ACAD.ST,2025-05-14,buy
+ACAD.ST,2025-05-30,watchlist
+ACAD.ST,2025-06-02,buy
+ACAD.ST,2025-06-19,reset (expired)
+ACAD.ST,2025-06-23,watchlist
+ACAD.ST,2025-06-26,buy
+ACAD.ST,2025-07-17,reset (expired)
+ACAD.ST,2025-07-18,buy
+ACAD.ST,2025-07-25,watchlist
+ACAD.ST,2025-08-04,buy
+ADDT-B.ST,2025-05-13,watchlist
+ADDT-B.ST,2025-05-16,buy
+ADDT-B.ST,2025-05-26,watchlist
+ADDT-B.ST,2025-05-30,buy
+ADDT-B.ST,2025-06-16,reset (expired)
+ADDT-B.ST,2025-06-26,watchlist
+ADDT-B.ST,2025-06-27,buy
+ADDT-B.ST,2025-07-17,reset (expired)
+ADDT-B.ST,2025-07-18,buy
+ADDT-B.ST,2025-07-28,watchlist
+ADDT-B.ST,2025-08-05,buy
+ADDV-B.ST,2025-05-13,watchlist
+ADDV-B.ST,2025-05-14,buy
+ADDV-B.ST,2025-05-30,reset (expired)
+ADDV-B.ST,2025-06-02,buy
+ADDV-B.ST,2025-06-19,sell
+ADDV-B.ST,2025-06-23,watchlist
+ADDV-B.ST,2025-06-26,buy
+ADDV-B.ST,2025-07-17,reset (expired)
+ADDV-B.ST,2025-07-18,buy
+ADDV-B.ST,2025-08-04,watchlist
+ADDV-B.ST,2025-08-05,buy
+AFRY.ST,2025-05-13,watchlist
+AFRY.ST,2025-05-16,buy
+AFRY.ST,2025-06-02,reset (expired)
+AFRY.ST,2025-06-04,buy
+AFRY.ST,2025-06-19,sell
+AFRY.ST,2025-06-26,watchlist
+AFRY.ST,2025-06-27,buy
+AFRY.ST,2025-07-17,reset (expired)
+AFRY.ST,2025-07-18,buy
+AFRY.ST,2025-08-04,reset (expired)
+AFRY.ST,2025-08-05,buy
+ALFA.ST,2025-05-13,watchlist
+ALFA.ST,2025-05-14,buy
+ALFA.ST,2025-05-26,watchlist
+ALFA.ST,2025-05-27,buy
+ALFA.ST,2025-06-13,reset (expired)
+ALFA.ST,2025-06-16,buy
+ALFA.ST,2025-06-27,watchlist
+ALFA.ST,2025-06-30,buy
+ALFA.ST,2025-07-17,reset (expired)
+ALFA.ST,2025-07-18,buy
+ALFA.ST,2025-07-28,watchlist
+ALFA.ST,2025-07-30,buy
+ALIF-B.ST,2025-05-13,watchlist
+ALIF-B.ST,2025-05-27,buy
+ALIF-B.ST,2025-06-13,reset (expired)
+ALIF-B.ST,2025-06-16,watchlist
+ALIF-B.ST,2025-06-27,buy
+ALIF-B.ST,2025-07-17,reset (expired)
+ALIF-B.ST,2025-07-18,buy
+ALIF-B.ST,2025-08-04,reset (expired)
+ALIF-B.ST,2025-08-05,buy
+ALIG.ST,2025-05-13,watchlist
+ALIG.ST,2025-05-14,buy
+ALIG.ST,2025-05-30,reset (expired)
+ALIG.ST,2025-06-03,buy
+ALIG.ST,2025-06-19,reset (expired)
+ALIG.ST,2025-06-27,buy
+ALIG.ST,2025-07-17,reset (expired)
+ALIG.ST,2025-07-18,buy
+ALIG.ST,2025-07-21,watchlist
+ALIG.ST,2025-07-25,buy
+ALIV-SDB.ST,2025-05-13,watchlist
+ALIV-SDB.ST,2025-05-27,buy
+ALIV-SDB.ST,2025-06-13,reset (expired)
+ALIV-SDB.ST,2025-06-16,buy
+ALIV-SDB.ST,2025-07-02,reset (expired)
+ALIV-SDB.ST,2025-07-04,buy
+ALIV-SDB.ST,2025-07-21,reset (expired)
+ALIV-SDB.ST,2025-07-25,buy
+ALIV-SDB.ST,2025-07-28,watchlist
+ALIV-SDB.ST,2025-08-05,buy
+ALLEI.ST,2025-05-13,watchlist
+ALLEI.ST,2025-05-20,buy
+ALLEI.ST,2025-06-05,reset (expired)
+ALLEI.ST,2025-06-10,buy
+ALLEI.ST,2025-06-19,sell
+ALLEI.ST,2025-06-27,watchlist
+ALLEI.ST,2025-07-04,buy
+ALLEI.ST,2025-07-21,reset (expired)
+ALLEI.ST,2025-07-25,buy
+ALLEI.ST,2025-08-08,watchlist
+ALLIGO-B.ST,2025-05-14,watchlist
+ALLIGO-B.ST,2025-05-19,buy
+ALLIGO-B.ST,2025-05-26,watchlist
+ALLIGO-B.ST,2025-05-27,buy
+ALLIGO-B.ST,2025-06-13,reset (expired)
+ALLIGO-B.ST,2025-06-26,buy
+ALLIGO-B.ST,2025-07-17,reset (expired)
+ALLIGO-B.ST,2025-07-18,buy
+ALLIGO-B.ST,2025-08-04,reset (expired)
+ALLIGO-B.ST,2025-08-08,watchlist
+AMBEA.ST,2025-05-13,watchlist
+AMBEA.ST,2025-05-14,buy
+AMBEA.ST,2025-05-30,reset (expired)
+AMBEA.ST,2025-06-02,buy
+AMBEA.ST,2025-06-16,watchlist
+AMBEA.ST,2025-06-27,buy
+AMBEA.ST,2025-07-17,watchlist
+AMBEA.ST,2025-07-28,buy
+AMBEA.ST,2025-08-06,watchlist
+AMBEA.ST,2025-08-08,buy
+ANOD-B.ST,2025-05-13,watchlist
+ANOD-B.ST,2025-05-14,buy
+ANOD-B.ST,2025-05-30,reset (expired)
+ANOD-B.ST,2025-06-02,buy
+ANOD-B.ST,2025-06-10,watchlist
+ANOD-B.ST,2025-06-11,buy
+ANOD-B.ST,2025-06-27,reset (expired)
+ANOD-B.ST,2025-06-30,buy
+ANOD-B.ST,2025-07-02,watchlist
+ANOD-B.ST,2025-07-04,buy
+ANOD-B.ST,2025-07-18,watchlist
+ANOD-B.ST,2025-08-04,reset (expired)
+ANOD-B.ST,2025-08-05,buy
+APOTEA.ST,2025-05-15,watchlist
+APOTEA.ST,2025-05-16,buy
+APOTEA.ST,2025-06-02,reset (expired)
+APOTEA.ST,2025-06-05,buy
+APOTEA.ST,2025-06-26,reset (expired)
+APOTEA.ST,2025-06-27,buy
+APOTEA.ST,2025-07-17,reset (expired)
+APOTEA.ST,2025-07-18,buy
+APOTEA.ST,2025-07-21,watchlist
+APOTEA.ST,2025-07-25,buy
+APOTEA.ST,2025-08-04,watchlist
+APOTEA.ST,2025-08-05,buy
+AQ.ST,2025-05-13,watchlist
+AQ.ST,2025-05-16,buy
+AQ.ST,2025-05-26,watchlist
+AQ.ST,2025-05-27,buy
+AQ.ST,2025-06-11,watchlist
+AQ.ST,2025-06-19,buy
+AQ.ST,2025-06-27,watchlist
+AQ.ST,2025-06-30,buy
+AQ.ST,2025-07-17,reset (expired)
+AQ.ST,2025-07-18,watchlist
+AQ.ST,2025-07-28,buy
+ARJO-B.ST,2025-05-13,watchlist
+ARJO-B.ST,2025-05-14,buy
+ARJO-B.ST,2025-05-21,watchlist
+ARJO-B.ST,2025-05-26,buy
+ARJO-B.ST,2025-06-09,watchlist
+ARJO-B.ST,2025-06-10,buy
+ARJO-B.ST,2025-06-23,watchlist
+ARJO-B.ST,2025-06-26,buy
+ARJO-B.ST,2025-07-17,reset (expired)
+ARJO-B.ST,2025-07-25,buy
+ASKER.ST,2025-05-14,watchlist
+ASKER.ST,2025-05-15,buy
+ASKER.ST,2025-06-02,reset (expired)
+ASKER.ST,2025-06-04,buy
+ASKER.ST,2025-06-23,reset (expired)
+ASKER.ST,2025-06-26,buy
+ASKER.ST,2025-07-17,sell
+ASKER.ST,2025-07-21,watchlist
+ASKER.ST,2025-08-04,buy
+ASMDEE-B.ST,2025-05-13,watchlist
+ASMDEE-B.ST,2025-05-14,buy
+ASMDEE-B.ST,2025-05-20,watchlist
+ASMDEE-B.ST,2025-05-21,buy
+ASMDEE-B.ST,2025-06-09,reset (expired)
+ASMDEE-B.ST,2025-06-10,buy
+ASMDEE-B.ST,2025-06-26,reset (expired)
+ASMDEE-B.ST,2025-06-27,watchlist
+ASMDEE-B.ST,2025-07-07,buy
+ASMDEE-B.ST,2025-07-25,reset (expired)
+ASMDEE-B.ST,2025-07-28,watchlist
+ASMDEE-B.ST,2025-08-04,buy
+ASSA-B.ST,2025-05-13,watchlist
+ASSA-B.ST,2025-05-21,buy
+ASSA-B.ST,2025-05-26,watchlist
+ASSA-B.ST,2025-05-27,buy
+ASSA-B.ST,2025-06-04,watchlist
+ASSA-B.ST,2025-06-05,buy
+ASSA-B.ST,2025-06-23,reset (expired)
+ASSA-B.ST,2025-06-26,buy
+ASSA-B.ST,2025-07-17,reset (expired)
+ASSA-B.ST,2025-07-18,watchlist
+ASSA-B.ST,2025-08-04,reset (expired)
+ASSA-B.ST,2025-08-05,buy
+ATCO-B.ST,2025-05-13,watchlist
+ATCO-B.ST,2025-05-14,buy
+ATCO-B.ST,2025-05-26,watchlist
+ATCO-B.ST,2025-05-27,buy
+ATCO-B.ST,2025-06-13,reset (expired)
+ATCO-B.ST,2025-06-16,buy
+ATCO-B.ST,2025-07-02,reset (expired)
+ATCO-B.ST,2025-07-04,buy
+ATCO-B.ST,2025-07-21,reset (expired)
+ATCO-B.ST,2025-07-25,buy
+ATCO-B.ST,2025-08-04,watchlist
+ATCO-B.ST,2025-08-05,buy
+ATRLJ-B.ST,2025-05-13,watchlist
+ATRLJ-B.ST,2025-05-14,buy
+ATRLJ-B.ST,2025-05-26,watchlist
+ATRLJ-B.ST,2025-05-27,buy
+ATRLJ-B.ST,2025-06-13,reset (expired)
+ATRLJ-B.ST,2025-06-19,watchlist
+ATRLJ-B.ST,2025-06-26,buy
+ATRLJ-B.ST,2025-07-04,watchlist
+ATRLJ-B.ST,2025-07-07,buy
+ATRLJ-B.ST,2025-07-17,watchlist
+ATRLJ-B.ST,2025-07-18,buy
+ATRLJ-B.ST,2025-08-04,watchlist
+ATRLJ-B.ST,2025-08-05,buy
+ATT.ST,2025-05-13,watchlist
+ATT.ST,2025-05-19,buy
+ATT.ST,2025-05-26,watchlist
+ATT.ST,2025-05-27,buy
+ATT.ST,2025-06-13,reset (expired)
+ATT.ST,2025-06-16,watchlist
+ATT.ST,2025-06-19,buy
+ATT.ST,2025-07-07,reset (expired)
+ATT.ST,2025-07-10,buy
+ATT.ST,2025-07-18,watchlist
+ATT.ST,2025-07-21,buy
+ATT.ST,2025-08-04,watchlist
+ATT.ST,2025-08-05,buy
+AXFO.ST,2025-05-14,watchlist
+AXFO.ST,2025-05-15,buy
+AXFO.ST,2025-05-30,watchlist
+AXFO.ST,2025-06-02,buy
+AXFO.ST,2025-06-09,watchlist
+AXFO.ST,2025-06-10,buy
+AXFO.ST,2025-06-23,watchlist
+AXFO.ST,2025-06-26,buy
+AXFO.ST,2025-07-11,watchlist
+AXFO.ST,2025-07-17,buy
+AXFO.ST,2025-07-25,watchlist
+AXFO.ST,2025-07-28,buy
+AZA.ST,2025-05-13,watchlist
+AZA.ST,2025-05-14,buy
+AZA.ST,2025-05-26,watchlist
+AZA.ST,2025-05-27,buy
+AZA.ST,2025-06-13,reset (expired)
+AZA.ST,2025-06-19,buy
+AZA.ST,2025-07-07,reset (expired)
+AZA.ST,2025-07-10,buy
+AZA.ST,2025-07-25,watchlist
+AZA.ST,2025-08-04,buy
+AZN.ST,2025-05-13,watchlist
+AZN.ST,2025-05-19,buy
+AZN.ST,2025-06-04,reset (expired)
+AZN.ST,2025-06-05,buy
+AZN.ST,2025-06-11,watchlist
+AZN.ST,2025-06-13,buy
+AZN.ST,2025-06-27,watchlist
+AZN.ST,2025-07-04,buy
+AZN.ST,2025-07-21,reset (expired)
+AZN.ST,2025-07-25,buy
+BAHN-B.ST,2025-05-13,watchlist
+BAHN-B.ST,2025-05-14,buy
+BAHN-B.ST,2025-05-30,reset (expired)
+BAHN-B.ST,2025-06-02,buy
+BAHN-B.ST,2025-06-19,reset (expired)
+BAHN-B.ST,2025-06-23,buy
+BAHN-B.ST,2025-07-10,reset (expired)
+BAHN-B.ST,2025-07-11,buy
+BAHN-B.ST,2025-07-28,reset (expired)
+BAHN-B.ST,2025-08-04,watchlist
+BAHN-B.ST,2025-08-05,buy
+BALD-B.ST,2025-05-13,watchlist
+BALD-B.ST,2025-05-27,buy
+BALD-B.ST,2025-06-13,reset (expired)
+BALD-B.ST,2025-06-19,buy
+BALD-B.ST,2025-07-07,reset (expired)
+BALD-B.ST,2025-07-17,watchlist
+BALD-B.ST,2025-07-25,buy
+BALD-B.ST,2025-08-04,watchlist
+BALD-B.ST,2025-08-05,buy
+BEIA-B.ST,2025-05-14,watchlist
+BEIA-B.ST,2025-05-15,buy
+BEIA-B.ST,2025-05-26,watchlist
+BEIA-B.ST,2025-05-27,buy
+BEIA-B.ST,2025-06-13,reset (expired)
+BEIA-B.ST,2025-06-16,buy
+BEIA-B.ST,2025-07-02,reset (expired)
+BEIA-B.ST,2025-07-04,buy
+BEIA-B.ST,2025-07-21,reset (expired)
+BEIA-B.ST,2025-07-25,buy
+BEIJ-B.ST,2025-05-13,watchlist
+BEIJ-B.ST,2025-05-27,buy
+BEIJ-B.ST,2025-06-04,watchlist
+BEIJ-B.ST,2025-06-05,buy
+BEIJ-B.ST,2025-06-11,watchlist
+BEIJ-B.ST,2025-06-19,buy
+BEIJ-B.ST,2025-07-02,watchlist
+BEIJ-B.ST,2025-07-04,buy
+BEIJ-B.ST,2025-07-21,reset (expired)
+BEIJ-B.ST,2025-07-25,buy
+BEIJ-B.ST,2025-07-28,watchlist
+BEIJ-B.ST,2025-07-30,buy
+BERG-B.ST,2025-05-13,watchlist
+BERG-B.ST,2025-05-16,buy
+BERG-B.ST,2025-06-02,reset (expired)
+BERG-B.ST,2025-06-03,buy
+BERG-B.ST,2025-06-05,watchlist
+BERG-B.ST,2025-06-09,buy
+BERG-B.ST,2025-06-26,watchlist
+BERG-B.ST,2025-06-27,buy
+BERG-B.ST,2025-07-04,watchlist
+BERG-B.ST,2025-07-07,buy
+BERG-B.ST,2025-07-21,watchlist
+BERG-B.ST,2025-07-25,buy
+BERG-B.ST,2025-08-06,watchlist
+BERG-B.ST,2025-08-08,buy
+BETS-B.ST,2025-05-13,watchlist
+BETS-B.ST,2025-05-14,buy
+BETS-B.ST,2025-05-30,reset (expired)
+BETS-B.ST,2025-06-02,buy
+BETS-B.ST,2025-06-19,reset (expired)
+BETS-B.ST,2025-06-26,watchlist
+BETS-B.ST,2025-06-27,buy
+BETS-B.ST,2025-07-17,reset (expired)
+BETS-B.ST,2025-07-18,buy
+BETS-B.ST,2025-08-04,reset (expired)
+BETS-B.ST,2025-08-05,buy
+BILI-A.ST,2025-05-13,watchlist
+BILI-A.ST,2025-05-14,buy
+BILI-A.ST,2025-05-22,watchlist
+BILI-A.ST,2025-05-27,buy
+BILI-A.ST,2025-06-13,reset (expired)
+BILI-A.ST,2025-06-26,watchlist
+BILI-A.ST,2025-06-27,buy
+BILI-A.ST,2025-07-17,reset (expired)
+BILI-A.ST,2025-07-18,watchlist
+BILI-A.ST,2025-07-21,buy
+BILI-A.ST,2025-08-04,watchlist
+BILI-A.ST,2025-08-05,buy
+BILL.ST,2025-05-13,watchlist
+BILL.ST,2025-05-14,buy
+BILL.ST,2025-05-30,reset (expired)
+BILL.ST,2025-06-02,buy
+BILL.ST,2025-06-19,reset (expired)
+BILL.ST,2025-06-27,buy
+BILL.ST,2025-07-17,reset (expired)
+BILL.ST,2025-07-18,buy
+BILL.ST,2025-08-04,reset (expired)
+BILL.ST,2025-08-05,watchlist
+BILL.ST,2025-08-06,buy
+BIOA-B.ST,2025-05-13,watchlist
+BIOA-B.ST,2025-05-16,buy
+BIOA-B.ST,2025-06-02,reset (expired)
+BIOA-B.ST,2025-06-03,buy
+BIOA-B.ST,2025-06-16,watchlist
+BIOA-B.ST,2025-06-30,buy
+BIOA-B.ST,2025-07-04,watchlist
+BIOA-B.ST,2025-07-07,buy
+BIOA-B.ST,2025-07-25,reset (expired)
+BIOA-B.ST,2025-07-28,watchlist
+BIOA-B.ST,2025-07-30,buy
+BIOG-B.ST,2025-05-13,watchlist
+BIOG-B.ST,2025-05-14,buy
+BIOG-B.ST,2025-05-26,watchlist
+BIOG-B.ST,2025-05-27,buy
+BIOG-B.ST,2025-06-13,reset (expired)
+BIOG-B.ST,2025-06-26,watchlist
+BIOG-B.ST,2025-06-27,buy
+BIOG-B.ST,2025-07-17,reset (expired)
+BIOG-B.ST,2025-07-18,buy
+BIOG-B.ST,2025-08-04,reset (expired)
+BIOG-B.ST,2025-08-05,watchlist
+BIOT.ST,2025-05-16,watchlist
+BIOT.ST,2025-05-19,buy
+BIOT.ST,2025-06-04,reset (expired)
+BIOT.ST,2025-06-05,buy
+BIOT.ST,2025-06-23,reset (expired)
+BIOT.ST,2025-06-26,buy
+BIOT.ST,2025-07-17,reset (expired)
+BIOT.ST,2025-07-21,buy
+BOL.ST,2025-05-13,watchlist
+BOL.ST,2025-05-21,buy
+BOL.ST,2025-06-04,watchlist
+BOL.ST,2025-06-05,buy
+BOL.ST,2025-06-19,sell
+BOL.ST,2025-06-26,watchlist
+BOL.ST,2025-06-27,buy
+BOL.ST,2025-07-17,reset (expired)
+BOL.ST,2025-07-18,buy
+BOL.ST,2025-08-04,watchlist
+BOL.ST,2025-08-05,buy
+BONEX.ST,2025-05-13,watchlist
+BONEX.ST,2025-05-16,buy
+BONEX.ST,2025-05-22,sell
+BONEX.ST,2025-05-26,watchlist
+BONEX.ST,2025-05-27,buy
+BONEX.ST,2025-06-13,reset (expired)
+BONEX.ST,2025-06-16,buy
+BONEX.ST,2025-07-02,reset (expired)
+BONEX.ST,2025-07-04,buy
+BONEX.ST,2025-07-18,watchlist
+BONEX.ST,2025-07-21,buy
+BONEX.ST,2025-08-06,reset (expired)
+BOOZT.ST,2025-05-13,watchlist
+BOOZT.ST,2025-05-14,buy
+BOOZT.ST,2025-05-23,watchlist
+BOOZT.ST,2025-05-26,buy
+BOOZT.ST,2025-06-11,reset (expired)
+BOOZT.ST,2025-06-13,sell
+BOOZT.ST,2025-06-27,watchlist
+BOOZT.ST,2025-06-30,buy
+BOOZT.ST,2025-07-17,reset (expired)
+BOOZT.ST,2025-07-21,watchlist
+BOOZT.ST,2025-07-25,buy
+BRAV.ST,2025-05-13,watchlist
+BRAV.ST,2025-05-19,buy
+BRAV.ST,2025-06-04,reset (expired)
+BRAV.ST,2025-06-05,buy
+BRAV.ST,2025-06-23,reset (expired)
+BRAV.ST,2025-06-26,buy
+BRAV.ST,2025-07-17,reset (expired)
+BRAV.ST,2025-07-25,buy
+BUFAB.ST,2025-05-13,watchlist
+BUFAB.ST,2025-05-14,buy
+BUFAB.ST,2025-05-26,watchlist
+BUFAB.ST,2025-05-27,buy
+BUFAB.ST,2025-06-13,reset (expired)
+BUFAB.ST,2025-06-16,buy
+BUFAB.ST,2025-06-26,watchlist
+BUFAB.ST,2025-06-27,buy
+BUFAB.ST,2025-07-02,watchlist
+BUFAB.ST,2025-07-04,buy
+BUFAB.ST,2025-07-18,watchlist
+BUFAB.ST,2025-07-21,buy
+BUFAB.ST,2025-08-04,watchlist
+BUFAB.ST,2025-08-05,buy
+BURE.ST,2025-05-13,watchlist
+BURE.ST,2025-05-16,buy
+BURE.ST,2025-06-02,reset (expired)
+BURE.ST,2025-06-03,watchlist
+BURE.ST,2025-06-04,buy
+BURE.ST,2025-06-23,reset (expired)
+BURE.ST,2025-06-26,buy
+BURE.ST,2025-07-02,watchlist
+BURE.ST,2025-07-04,buy
+BURE.ST,2025-07-18,watchlist
+BURE.ST,2025-07-21,buy
+BURE.ST,2025-08-05,watchlist
+BURE.ST,2025-08-06,buy
+CAMX.ST,2025-05-13,watchlist
+CAMX.ST,2025-05-16,buy
+CAMX.ST,2025-05-26,watchlist
+CAMX.ST,2025-06-10,buy
+CAMX.ST,2025-06-16,watchlist
+CAMX.ST,2025-06-26,buy
+CAMX.ST,2025-07-17,reset (expired)
+CAMX.ST,2025-07-18,watchlist
+CAMX.ST,2025-07-21,buy
+CAMX.ST,2025-08-01,sell
+CAMX.ST,2025-08-04,watchlist
+CAST.ST,2025-05-13,watchlist
+CAST.ST,2025-05-14,buy
+CAST.ST,2025-05-30,watchlist
+CAST.ST,2025-06-02,buy
+CAST.ST,2025-06-13,sell
+CAST.ST,2025-06-19,watchlist
+CAST.ST,2025-06-23,buy
+CAST.ST,2025-07-10,reset (expired)
+CAST.ST,2025-07-21,watchlist
+CAST.ST,2025-07-25,buy
+CATE.ST,2025-05-13,watchlist
+CATE.ST,2025-05-19,buy
+CATE.ST,2025-06-04,reset (expired)
+CATE.ST,2025-06-09,buy
+CATE.ST,2025-06-26,reset (expired)
+CATE.ST,2025-06-27,buy
+CATE.ST,2025-07-02,watchlist
+CATE.ST,2025-07-04,buy
+CATE.ST,2025-07-21,reset (expired)
+CATE.ST,2025-07-25,buy
+CATE.ST,2025-08-04,watchlist
+CATE.ST,2025-08-05,buy
+CIBUS.ST,2025-05-15,watchlist
+CIBUS.ST,2025-05-16,buy
+CIBUS.ST,2025-06-02,reset (expired)
+CIBUS.ST,2025-06-03,buy
+CIBUS.ST,2025-06-19,reset (expired)
+CIBUS.ST,2025-06-23,buy
+CIBUS.ST,2025-07-10,reset (expired)
+CIBUS.ST,2025-07-17,buy
+CIBUS.ST,2025-08-04,reset (expired)
+CIBUS.ST,2025-08-05,buy
+CLAS-B.ST,2025-05-13,watchlist
+CLAS-B.ST,2025-05-14,buy
+CLAS-B.ST,2025-05-30,reset (expired)
+CLAS-B.ST,2025-06-02,buy
+CLAS-B.ST,2025-06-13,watchlist
+CLAS-B.ST,2025-06-16,buy
+CLAS-B.ST,2025-06-27,watchlist
+CLAS-B.ST,2025-06-30,buy
+CLAS-B.ST,2025-07-04,watchlist
+CLAS-B.ST,2025-07-11,buy
+CLAS-B.ST,2025-07-28,reset (expired)
+CLAS-B.ST,2025-07-30,watchlist
+CLAS-B.ST,2025-08-01,buy
+CORE-A.ST,2025-05-13,watchlist
+CORE-A.ST,2025-05-14,buy
+CORE-A.ST,2025-05-30,reset (expired)
+CORE-A.ST,2025-06-04,watchlist
+CORE-A.ST,2025-06-05,buy
+CORE-A.ST,2025-06-11,sell
+CORE-A.ST,2025-06-16,watchlist
+CORE-A.ST,2025-06-19,buy
+CORE-A.ST,2025-07-02,watchlist
+CORE-A.ST,2025-07-04,buy
+CORE-A.ST,2025-07-21,reset (expired)
+CORE-A.ST,2025-07-25,buy
+CORE-A.ST,2025-08-04,watchlist
+CORE-A.ST,2025-08-05,buy
+CRED-A.ST,2025-05-13,watchlist
+CRED-A.ST,2025-05-14,buy
+CRED-A.ST,2025-05-26,watchlist
+CRED-A.ST,2025-06-05,buy
+CRED-A.ST,2025-06-23,reset (expired)
+CRED-A.ST,2025-06-26,buy
+CRED-A.ST,2025-07-17,reset (expired)
+CRED-A.ST,2025-07-21,watchlist
+CRED-A.ST,2025-07-25,buy
+CS.ST,2025-05-14,watchlist
+CS.ST,2025-05-19,buy
+CS.ST,2025-06-04,watchlist
+CS.ST,2025-06-23,buy
+CS.ST,2025-07-10,reset (expired)
+CS.ST,2025-07-11,buy
+CS.ST,2025-07-18,watchlist
+CS.ST,2025-08-04,reset (expired)
+CS.ST,2025-08-05,watchlist
+DIOS.ST,2025-05-13,watchlist
+DIOS.ST,2025-05-20,buy
+DIOS.ST,2025-05-26,watchlist
+DIOS.ST,2025-05-27,buy
+DIOS.ST,2025-06-04,watchlist
+DIOS.ST,2025-06-05,buy
+DIOS.ST,2025-06-23,reset (expired)
+DIOS.ST,2025-06-26,buy
+DIOS.ST,2025-07-17,watchlist
+DIOS.ST,2025-07-25,buy
+DOM.ST,2025-05-13,watchlist
+DOM.ST,2025-05-14,buy
+DOM.ST,2025-05-30,reset (expired)
+DOM.ST,2025-06-04,buy
+DOM.ST,2025-06-23,reset (expired)
+DOM.ST,2025-06-26,buy
+DOM.ST,2025-07-17,reset (expired)
+DOM.ST,2025-07-18,watchlist
+DOM.ST,2025-07-21,buy
+DOM.ST,2025-08-04,watchlist
+DOM.ST,2025-08-05,buy
+DYVOX.ST,2025-05-13,watchlist
+DYVOX.ST,2025-05-14,buy
+DYVOX.ST,2025-05-30,watchlist
+DYVOX.ST,2025-06-02,buy
+DYVOX.ST,2025-06-19,watchlist
+DYVOX.ST,2025-07-07,buy
+DYVOX.ST,2025-07-25,reset (expired)
+DYVOX.ST,2025-07-28,buy
+EKTA-B.ST,2025-05-13,watchlist
+EKTA-B.ST,2025-05-14,buy
+EKTA-B.ST,2025-05-30,reset (expired)
+EKTA-B.ST,2025-06-04,buy
+EKTA-B.ST,2025-06-23,watchlist
+EKTA-B.ST,2025-06-26,buy
+EKTA-B.ST,2025-07-17,reset (expired)
+EKTA-B.ST,2025-07-18,buy
+EKTA-B.ST,2025-08-04,reset (expired)
+EKTA-B.ST,2025-08-05,watchlist
+EKTA-B.ST,2025-08-06,buy
+ELUX-A.ST,2025-05-13,watchlist
+ELUX-A.ST,2025-05-14,buy
+ELUX-A.ST,2025-05-19,watchlist
+ELUX-A.ST,2025-05-27,buy
+ELUX-A.ST,2025-06-02,watchlist
+ELUX-A.ST,2025-06-03,sell
+ELUX-A.ST,2025-06-04,watchlist
+ELUX-A.ST,2025-06-05,buy
+ELUX-A.ST,2025-06-23,reset (expired)
+ELUX-A.ST,2025-06-26,buy
+ELUX-A.ST,2025-07-16,reset (expired)
+ELUX-A.ST,2025-07-18,buy
+ELUX-A.ST,2025-07-28,watchlist
+ELUX-A.ST,2025-08-05,buy
+ELUX-B.ST,2025-05-13,watchlist
+ELUX-B.ST,2025-05-19,buy
+ELUX-B.ST,2025-06-02,sell
+ELUX-B.ST,2025-06-04,watchlist
+ELUX-B.ST,2025-06-10,buy
+ELUX-B.ST,2025-06-26,watchlist
+ELUX-B.ST,2025-06-27,buy
+ELUX-B.ST,2025-07-17,reset (expired)
+ELUX-B.ST,2025-07-18,buy
+ELUX-B.ST,2025-07-30,sell
+ELUX-B.ST,2025-08-05,watchlist
+ELUX-B.ST,2025-08-06,buy
+EMBRAC-B.ST,2025-05-13,watchlist
+EMBRAC-B.ST,2025-05-14,buy
+EMBRAC-B.ST,2025-05-30,reset (expired)
+EMBRAC-B.ST,2025-06-02,watchlist
+EMBRAC-B.ST,2025-06-03,buy
+EMBRAC-B.ST,2025-06-19,reset (expired)
+EMBRAC-B.ST,2025-06-26,buy
+EMBRAC-B.ST,2025-07-17,reset (expired)
+EMBRAC-B.ST,2025-07-25,buy
+EMIL-B.ST,2025-05-14,watchlist
+EMIL-B.ST,2025-05-15,buy
+EMIL-B.ST,2025-06-02,reset (expired)
+EMIL-B.ST,2025-06-03,buy
+EMIL-B.ST,2025-06-19,reset (expired)
+EMIL-B.ST,2025-06-26,buy
+EMIL-B.ST,2025-07-17,reset (expired)
+EMIL-B.ST,2025-07-21,buy
+EMIL-B.ST,2025-08-06,reset (expired)
+EMIL-B.ST,2025-08-08,buy
+ENGCON-B.ST,2025-05-13,watchlist
+ENGCON-B.ST,2025-05-14,buy
+ENGCON-B.ST,2025-05-30,reset (expired)
+ENGCON-B.ST,2025-06-02,buy
+ENGCON-B.ST,2025-06-19,reset (expired)
+ENGCON-B.ST,2025-06-27,watchlist
+ENGCON-B.ST,2025-07-04,buy
+ENGCON-B.ST,2025-07-21,reset (expired)
+ENGCON-B.ST,2025-07-25,buy
+ENGCON-B.ST,2025-08-04,watchlist
+ENGCON-B.ST,2025-08-05,buy
+EPI-A.ST,2025-05-13,watchlist
+EPI-A.ST,2025-05-27,buy
+EPI-A.ST,2025-06-04,watchlist
+EPI-A.ST,2025-06-05,buy
+EPI-A.ST,2025-06-16,watchlist
+EPI-A.ST,2025-06-27,buy
+EPI-A.ST,2025-07-17,reset (expired)
+EPI-A.ST,2025-07-18,buy
+EPI-A.ST,2025-08-04,watchlist
+EPRO-B.ST,2025-05-13,watchlist
+EPRO-B.ST,2025-05-21,buy
+EPRO-B.ST,2025-05-22,sell
+EPRO-B.ST,2025-05-26,watchlist
+EPRO-B.ST,2025-05-30,buy
+EPRO-B.ST,2025-06-16,reset (expired)
+EPRO-B.ST,2025-06-23,watchlist
+EPRO-B.ST,2025-06-26,buy
+EPRO-B.ST,2025-07-17,reset (expired)
+EPRO-B.ST,2025-07-18,buy
+EPRO-B.ST,2025-08-04,reset (expired)
+EPRO-B.ST,2025-08-05,buy
+EQT.ST,2025-05-13,watchlist
+EQT.ST,2025-05-27,buy
+EQT.ST,2025-06-13,reset (expired)
+EQT.ST,2025-06-16,buy
+EQT.ST,2025-06-23,watchlist
+EQT.ST,2025-06-26,buy
+EQT.ST,2025-07-17,reset (expired)
+EQT.ST,2025-07-18,watchlist
+EQT.ST,2025-07-21,buy
+EQT.ST,2025-08-06,reset (expired)
+ERIC-A.ST,2025-05-13,watchlist
+ERIC-A.ST,2025-05-21,buy
+ERIC-A.ST,2025-06-09,reset (expired)
+ERIC-A.ST,2025-06-10,buy
+ERIC-A.ST,2025-06-26,reset (expired)
+ERIC-A.ST,2025-06-27,buy
+ERIC-A.ST,2025-06-30,watchlist
+ERIC-A.ST,2025-07-04,buy
+ERIC-A.ST,2025-07-17,watchlist
+ERIC-A.ST,2025-07-18,buy
+ERIC-A.ST,2025-08-04,watchlist
+ERIC-A.ST,2025-08-05,buy
+ERIC-B.ST,2025-05-13,watchlist
+ERIC-B.ST,2025-05-21,buy
+ERIC-B.ST,2025-05-26,watchlist
+ERIC-B.ST,2025-05-27,buy
+ERIC-B.ST,2025-06-13,reset (expired)
+ERIC-B.ST,2025-06-16,watchlist
+ERIC-B.ST,2025-06-19,buy
+ERIC-B.ST,2025-07-02,watchlist
+ERIC-B.ST,2025-07-04,buy
+ERIC-B.ST,2025-07-21,reset (expired)
+ERIC-B.ST,2025-07-28,watchlist
+ERIC-B.ST,2025-08-05,buy
+ESSITY-A.ST,2025-05-15,watchlist
+ESSITY-A.ST,2025-05-16,buy
+ESSITY-A.ST,2025-06-02,reset (expired)
+ESSITY-A.ST,2025-06-03,buy
+ESSITY-A.ST,2025-06-19,reset (expired)
+ESSITY-A.ST,2025-06-26,watchlist
+ESSITY-A.ST,2025-06-27,buy
+ESSITY-A.ST,2025-07-17,watchlist
+ESSITY-A.ST,2025-07-18,buy
+ESSITY-A.ST,2025-08-04,reset (expired)
+ESSITY-A.ST,2025-08-05,buy
+ESSITY-B.ST,2025-05-13,watchlist
+ESSITY-B.ST,2025-05-16,buy
+ESSITY-B.ST,2025-06-02,reset (expired)
+ESSITY-B.ST,2025-06-04,buy
+ESSITY-B.ST,2025-06-23,reset (expired)
+ESSITY-B.ST,2025-06-27,watchlist
+ESSITY-B.ST,2025-06-30,buy
+ESSITY-B.ST,2025-07-17,reset (expired)
+ESSITY-B.ST,2025-07-28,buy
+EVO.ST,2025-05-13,watchlist
+EVO.ST,2025-05-14,buy
+EVO.ST,2025-05-26,watchlist
+EVO.ST,2025-05-27,buy
+EVO.ST,2025-06-13,reset (expired)
+EVO.ST,2025-06-16,buy
+EVO.ST,2025-06-26,watchlist
+EVO.ST,2025-06-27,buy
+EVO.ST,2025-07-17,reset (expired)
+EVO.ST,2025-07-18,buy
+EVO.ST,2025-08-04,reset (expired)
+EVO.ST,2025-08-05,buy
+FABG.ST,2025-05-13,watchlist
+FABG.ST,2025-05-14,buy
+FABG.ST,2025-05-27,watchlist
+FABG.ST,2025-05-28,buy
+FABG.ST,2025-06-13,reset (expired)
+FABG.ST,2025-06-16,buy
+FABG.ST,2025-07-02,reset (expired)
+FABG.ST,2025-07-04,watchlist
+FABG.ST,2025-07-07,buy
+FABG.ST,2025-07-25,reset (expired)
+FABG.ST,2025-07-28,buy
+FABG.ST,2025-08-04,watchlist
+FABG.ST,2025-08-05,buy
+FAG.ST,2025-05-13,watchlist
+FAG.ST,2025-05-14,buy
+FAG.ST,2025-05-27,watchlist
+FAG.ST,2025-05-28,buy
+FAG.ST,2025-06-13,reset (expired)
+FAG.ST,2025-06-27,watchlist
+FAG.ST,2025-06-30,buy
+FAG.ST,2025-07-17,reset (expired)
+FAG.ST,2025-07-18,watchlist
+FAG.ST,2025-07-28,buy
+FAG.ST,2025-08-04,watchlist
+FAG.ST,2025-08-05,buy
+FNOX.ST,2025-05-13,watchlist
+FNOX.ST,2025-05-14,buy
+FNOX.ST,2025-05-30,reset (expired)
+FNOX.ST,2025-06-02,buy
+FNOX.ST,2025-06-19,reset (expired)
+FNOX.ST,2025-06-26,buy
+FNOX.ST,2025-07-17,reset (expired)
+FNOX.ST,2025-07-21,watchlist
+FOI-B.ST,2025-05-13,watchlist
+FOI-B.ST,2025-05-14,buy
+FOI-B.ST,2025-05-30,watchlist
+FOI-B.ST,2025-06-02,buy
+FOI-B.ST,2025-06-19,reset (expired)
+FOI-B.ST,2025-06-27,watchlist
+FOI-B.ST,2025-06-30,buy
+FOI-B.ST,2025-07-17,reset (expired)
+FOI-B.ST,2025-07-21,buy
+FOI-B.ST,2025-08-06,reset (expired)
+FPAR-A.ST,2025-05-13,watchlist
+FPAR-A.ST,2025-05-14,buy
+FPAR-A.ST,2025-05-30,reset (expired)
+FPAR-A.ST,2025-06-05,watchlist
+FPAR-A.ST,2025-06-09,buy
+FPAR-A.ST,2025-06-26,reset (expired)
+FPAR-A.ST,2025-06-27,buy
+FPAR-A.ST,2025-07-02,watchlist
+FPAR-A.ST,2025-07-04,buy
+FPAR-A.ST,2025-07-21,watchlist
+FPAR-A.ST,2025-07-25,buy
+GETI-B.ST,2025-05-13,watchlist
+GETI-B.ST,2025-05-26,buy
+GETI-B.ST,2025-06-11,reset (expired)
+GETI-B.ST,2025-06-16,buy
+GETI-B.ST,2025-07-02,watchlist
+GETI-B.ST,2025-07-04,buy
+GETI-B.ST,2025-07-18,watchlist
+GETI-B.ST,2025-07-21,buy
+GETI-B.ST,2025-08-04,watchlist
+GETI-B.ST,2025-08-05,buy
+GOTL-A.ST,2025-05-14,watchlist
+GOTL-A.ST,2025-05-21,buy
+GOTL-A.ST,2025-06-09,reset (expired)
+GOTL-A.ST,2025-06-10,buy
+GOTL-A.ST,2025-06-27,reset (expired)
+GOTL-A.ST,2025-06-30,buy
+GOTL-A.ST,2025-07-17,reset (expired)
+GOTL-A.ST,2025-07-21,buy
+GOTL-A.ST,2025-08-06,reset (expired)
+GOTL-A.ST,2025-08-08,buy
+GRNG.ST,2025-05-13,watchlist
+GRNG.ST,2025-05-14,buy
+GRNG.ST,2025-05-30,reset (expired)
+GRNG.ST,2025-06-02,buy
+GRNG.ST,2025-06-09,watchlist
+GRNG.ST,2025-06-10,buy
+GRNG.ST,2025-06-13,sell
+GRNG.ST,2025-06-16,watchlist
+GRNG.ST,2025-07-02,reset (expired)
+GRNG.ST,2025-07-04,buy
+GRNG.ST,2025-07-18,watchlist
+GRNG.ST,2025-07-21,buy
+GRNG.ST,2025-08-05,watchlist
+GRNG.ST,2025-08-06,buy
+HEBA-B.ST,2025-05-13,watchlist
+HEBA-B.ST,2025-05-14,buy
+HEBA-B.ST,2025-05-30,reset (expired)
+HEBA-B.ST,2025-06-03,buy
+HEBA-B.ST,2025-06-26,sell
+HEBA-B.ST,2025-06-27,watchlist
+HEBA-B.ST,2025-06-30,buy
+HEBA-B.ST,2025-07-17,watchlist
+HEBA-B.ST,2025-07-18,buy
+HEBA-B.ST,2025-08-04,reset (expired)
+HEBA-B.ST,2025-08-05,buy
+HEM.ST,2025-05-14,watchlist
+HEM.ST,2025-05-15,buy
+HEM.ST,2025-05-27,watchlist
+HEM.ST,2025-05-28,buy
+HEM.ST,2025-06-13,reset (expired)
+HEM.ST,2025-06-23,watchlist
+HEM.ST,2025-06-26,buy
+HEM.ST,2025-07-17,reset (expired)
+HEM.ST,2025-07-18,buy
+HEM.ST,2025-07-21,watchlist
+HEM.ST,2025-08-05,buy
+HEXA-B.ST,2025-05-13,watchlist
+HEXA-B.ST,2025-05-30,buy
+HEXA-B.ST,2025-06-04,watchlist
+HEXA-B.ST,2025-06-05,buy
+HEXA-B.ST,2025-06-13,sell
+HEXA-B.ST,2025-06-26,watchlist
+HEXA-B.ST,2025-06-27,buy
+HEXA-B.ST,2025-07-17,reset (expired)
+HEXA-B.ST,2025-07-18,watchlist
+HEXA-B.ST,2025-07-21,buy
+HEXA-B.ST,2025-08-04,watchlist
+HEXA-B.ST,2025-08-05,buy
+HM-B.ST,2025-05-13,watchlist
+HM-B.ST,2025-05-14,buy
+HM-B.ST,2025-05-26,watchlist
+HM-B.ST,2025-06-10,buy
+HM-B.ST,2025-06-16,watchlist
+HM-B.ST,2025-06-23,sell
+HM-B.ST,2025-06-26,watchlist
+HM-B.ST,2025-06-27,buy
+HM-B.ST,2025-07-17,reset (expired)
+HM-B.ST,2025-07-18,watchlist
+HM-B.ST,2025-07-21,buy
+HM-B.ST,2025-08-06,reset (expired)
+HM-B.ST,2025-08-08,buy
+HMS.ST,2025-05-13,watchlist
+HMS.ST,2025-05-14,buy
+HMS.ST,2025-05-30,reset (expired)
+HMS.ST,2025-06-02,buy
+HMS.ST,2025-06-13,sell
+HMS.ST,2025-06-23,watchlist
+HMS.ST,2025-06-26,buy
+HMS.ST,2025-07-17,reset (expired)
+HMS.ST,2025-07-18,watchlist
+HMS.ST,2025-07-21,buy
+HMS.ST,2025-08-05,watchlist
+HMS.ST,2025-08-06,buy
+HOFI.ST,2025-05-13,watchlist
+HOFI.ST,2025-05-14,buy
+HOFI.ST,2025-05-30,reset (expired)
+HOFI.ST,2025-06-02,buy
+HOFI.ST,2025-06-23,reset (expired)
+HOFI.ST,2025-06-26,buy
+HOFI.ST,2025-07-04,watchlist
+HOFI.ST,2025-07-21,buy
+HOFI.ST,2025-07-30,sell
+HOFI.ST,2025-08-01,watchlist
+HOFI.ST,2025-08-06,buy
+HOLM-A.ST,2025-05-13,watchlist
+HOLM-A.ST,2025-05-16,buy
+HOLM-A.ST,2025-05-26,watchlist
+HOLM-A.ST,2025-05-27,buy
+HOLM-A.ST,2025-06-09,watchlist
+HOLM-A.ST,2025-06-10,buy
+HOLM-A.ST,2025-06-26,reset (expired)
+HOLM-A.ST,2025-06-27,buy
+HOLM-A.ST,2025-07-17,reset (expired)
+HOLM-A.ST,2025-07-25,buy
+HPOL-B.ST,2025-05-13,watchlist
+HPOL-B.ST,2025-05-16,buy
+HPOL-B.ST,2025-06-02,reset (expired)
+HPOL-B.ST,2025-06-04,buy
+HPOL-B.ST,2025-06-23,reset (expired)
+HPOL-B.ST,2025-06-26,buy
+HPOL-B.ST,2025-07-17,reset (expired)
+HPOL-B.ST,2025-07-18,buy
+HPOL-B.ST,2025-08-04,reset (expired)
+HPOL-B.ST,2025-08-05,watchlist
+HPOL-B.ST,2025-08-06,buy
+HTRO.ST,2025-05-13,watchlist
+HTRO.ST,2025-05-16,buy
+HTRO.ST,2025-05-26,watchlist
+HTRO.ST,2025-05-27,buy
+HTRO.ST,2025-06-13,reset (expired)
+HTRO.ST,2025-06-16,buy
+HTRO.ST,2025-06-19,sell
+HTRO.ST,2025-06-26,watchlist
+HTRO.ST,2025-06-27,buy
+HTRO.ST,2025-07-17,sell
+HTRO.ST,2025-07-25,watchlist
+HTRO.ST,2025-07-28,buy
+HTRO.ST,2025-08-05,watchlist
+HTRO.ST,2025-08-06,buy
+HUFV-A.ST,2025-05-13,watchlist
+HUFV-A.ST,2025-05-16,buy
+HUFV-A.ST,2025-05-26,watchlist
+HUFV-A.ST,2025-05-27,buy
+HUFV-A.ST,2025-06-13,reset (expired)
+HUFV-A.ST,2025-06-16,buy
+HUFV-A.ST,2025-07-02,reset (expired)
+HUFV-A.ST,2025-07-04,buy
+HUFV-A.ST,2025-07-21,reset (expired)
+HUFV-A.ST,2025-07-25,buy
+HUSQ-A.ST,2025-05-13,watchlist
+HUSQ-A.ST,2025-05-21,buy
+HUSQ-A.ST,2025-05-26,watchlist
+HUSQ-A.ST,2025-05-27,buy
+HUSQ-A.ST,2025-06-13,reset (expired)
+HUSQ-A.ST,2025-06-23,watchlist
+HUSQ-A.ST,2025-06-26,buy
+HUSQ-A.ST,2025-07-17,reset (expired)
+HUSQ-A.ST,2025-07-18,buy
+HUSQ-A.ST,2025-07-28,watchlist
+HUSQ-A.ST,2025-08-06,buy
+INDT.ST,2025-05-13,watchlist
+INDT.ST,2025-05-14,buy
+INDT.ST,2025-05-20,watchlist
+INDT.ST,2025-05-27,buy
+INDT.ST,2025-06-13,reset (expired)
+INDT.ST,2025-06-16,buy
+INDT.ST,2025-07-02,reset (expired)
+INDT.ST,2025-07-04,buy
+INDT.ST,2025-07-18,watchlist
+INDT.ST,2025-07-21,buy
+INDT.ST,2025-08-05,watchlist
+INDT.ST,2025-08-06,buy
+INDU-A.ST,2025-05-13,watchlist
+INDU-A.ST,2025-05-14,buy
+INDU-A.ST,2025-05-30,reset (expired)
+INDU-A.ST,2025-06-03,buy
+INDU-A.ST,2025-06-19,reset (expired)
+INDU-A.ST,2025-06-26,buy
+INDU-A.ST,2025-07-17,reset (expired)
+INDU-A.ST,2025-07-25,buy
+INSTAL.ST,2025-05-13,watchlist
+INSTAL.ST,2025-05-16,buy
+INSTAL.ST,2025-06-02,reset (expired)
+INSTAL.ST,2025-06-03,watchlist
+INSTAL.ST,2025-06-04,buy
+INSTAL.ST,2025-06-10,sell
+INSTAL.ST,2025-06-11,watchlist
+INSTAL.ST,2025-06-13,buy
+INSTAL.ST,2025-06-19,sell
+INSTAL.ST,2025-06-26,watchlist
+INSTAL.ST,2025-06-27,buy
+INSTAL.ST,2025-07-17,reset (expired)
+INSTAL.ST,2025-07-18,buy
+INSTAL.ST,2025-08-04,watchlist
+INSTAL.ST,2025-08-05,buy
+INTEA-B.ST,2025-05-13,watchlist
+INTEA-B.ST,2025-05-14,buy
+INTEA-B.ST,2025-05-30,reset (expired)
+INTEA-B.ST,2025-06-02,buy
+INTEA-B.ST,2025-06-09,watchlist
+INTEA-B.ST,2025-06-16,buy
+INTEA-B.ST,2025-07-02,reset (expired)
+INTEA-B.ST,2025-07-04,buy
+INTEA-B.ST,2025-07-21,reset (expired)
+INTEA-B.ST,2025-07-25,buy
+INVE-A.ST,2025-05-13,watchlist
+INVE-A.ST,2025-05-21,buy
+INVE-A.ST,2025-05-26,watchlist
+INVE-A.ST,2025-06-05,buy
+INVE-A.ST,2025-06-23,reset (expired)
+INVE-A.ST,2025-06-26,buy
+INVE-A.ST,2025-07-17,reset (expired)
+INVE-A.ST,2025-07-18,buy
+INVE-A.ST,2025-07-28,watchlist
+INVE-A.ST,2025-08-04,buy
+INVE-B.ST,2025-05-13,watchlist
+INVE-B.ST,2025-05-30,reset (expired)
+INVE-B.ST,2025-06-04,watchlist
+INVE-B.ST,2025-06-05,buy
+INVE-B.ST,2025-06-23,reset (expired)
+INVE-B.ST,2025-06-26,buy
+INVE-B.ST,2025-07-17,reset (expired)
+INVE-B.ST,2025-07-18,buy
+INVE-B.ST,2025-07-28,watchlist
+INVE-B.ST,2025-08-05,buy
+INWI.ST,2025-05-13,watchlist
+INWI.ST,2025-05-14,buy
+INWI.ST,2025-05-26,watchlist
+INWI.ST,2025-05-27,buy
+INWI.ST,2025-06-13,reset (expired)
+INWI.ST,2025-06-26,watchlist
+INWI.ST,2025-06-27,buy
+INWI.ST,2025-07-17,reset (expired)
+INWI.ST,2025-07-18,buy
+INWI.ST,2025-08-04,reset (expired)
+INWI.ST,2025-08-05,buy
+IPCO.ST,2025-05-13,watchlist
+IPCO.ST,2025-05-14,buy
+IPCO.ST,2025-05-21,watchlist
+IPCO.ST,2025-05-22,buy
+IPCO.ST,2025-06-09,reset (expired)
+IPCO.ST,2025-06-10,buy
+IPCO.ST,2025-06-26,sell
+IPCO.ST,2025-06-27,watchlist
+IPCO.ST,2025-07-02,buy
+IPCO.ST,2025-07-17,watchlist
+IPCO.ST,2025-07-18,buy
+IPCO.ST,2025-08-04,reset (expired)
+IPCO.ST,2025-08-05,buy
+ITAB.ST,2025-05-13,watchlist
+ITAB.ST,2025-05-14,buy
+ITAB.ST,2025-05-19,watchlist
+ITAB.ST,2025-05-27,buy
+ITAB.ST,2025-06-13,reset (expired)
+ITAB.ST,2025-06-16,buy
+ITAB.ST,2025-07-02,reset (expired)
+ITAB.ST,2025-07-04,buy
+ITAB.ST,2025-07-21,watchlist
+ITAB.ST,2025-08-04,buy
+IVSO.ST,2025-05-13,watchlist
+IVSO.ST,2025-05-16,buy
+IVSO.ST,2025-06-02,reset (expired)
+IVSO.ST,2025-06-03,buy
+IVSO.ST,2025-06-13,watchlist
+IVSO.ST,2025-06-16,buy
+IVSO.ST,2025-07-02,reset (expired)
+IVSO.ST,2025-07-04,buy
+IVSO.ST,2025-07-18,watchlist
+IVSO.ST,2025-08-04,reset (expired)
+IVSO.ST,2025-08-05,buy
+JM.ST,2025-05-13,watchlist
+JM.ST,2025-05-14,buy
+JM.ST,2025-05-26,watchlist
+JM.ST,2025-05-30,buy
+JM.ST,2025-06-05,watchlist
+JM.ST,2025-06-09,buy
+JM.ST,2025-06-26,reset (expired)
+JM.ST,2025-06-27,buy
+JM.ST,2025-07-17,reset (expired)
+JM.ST,2025-07-18,buy
+JM.ST,2025-08-04,reset (expired)
+JM.ST,2025-08-05,buy
+KAR.ST,2025-05-13,watchlist
+KAR.ST,2025-05-20,buy
+KAR.ST,2025-06-05,reset (expired)
+KAR.ST,2025-06-09,buy
+KAR.ST,2025-06-26,reset (expired)
+KAR.ST,2025-06-27,buy
+KAR.ST,2025-07-17,reset (expired)
+KAR.ST,2025-07-18,buy
+KAR.ST,2025-08-04,watchlist
+KINV-A.ST,2025-05-13,watchlist
+KINV-A.ST,2025-05-16,buy
+KINV-A.ST,2025-06-02,reset (expired)
+KINV-A.ST,2025-06-03,buy
+KINV-A.ST,2025-06-13,sell
+KINV-A.ST,2025-06-19,watchlist
+KINV-A.ST,2025-06-27,buy
+KINV-A.ST,2025-07-17,reset (expired)
+KINV-A.ST,2025-07-18,buy
+KINV-A.ST,2025-07-28,watchlist
+KINV-A.ST,2025-08-08,buy
+KINV-B.ST,2025-05-13,watchlist
+KINV-B.ST,2025-05-14,buy
+KINV-B.ST,2025-05-26,watchlist
+KINV-B.ST,2025-05-27,buy
+KINV-B.ST,2025-06-04,watchlist
+KINV-B.ST,2025-06-05,buy
+KINV-B.ST,2025-06-23,reset (expired)
+KINV-B.ST,2025-06-26,watchlist
+KINV-B.ST,2025-06-27,buy
+KINV-B.ST,2025-07-17,reset (expired)
+KINV-B.ST,2025-07-18,buy
+KINV-B.ST,2025-08-04,watchlist
+KINV-B.ST,2025-08-05,buy
+LAGR-B.ST,2025-05-13,watchlist
+LAGR-B.ST,2025-05-14,buy
+LAGR-B.ST,2025-05-30,reset (expired)
+LAGR-B.ST,2025-06-03,buy
+LAGR-B.ST,2025-06-23,reset (expired)
+LAGR-B.ST,2025-06-26,buy
+LAGR-B.ST,2025-07-17,reset (expired)
+LAGR-B.ST,2025-07-30,watchlist
+LAGR-B.ST,2025-08-05,buy
+LATO-B.ST,2025-05-13,watchlist
+LATO-B.ST,2025-05-14,buy
+LATO-B.ST,2025-05-19,watchlist
+LATO-B.ST,2025-05-20,buy
+LATO-B.ST,2025-05-26,watchlist
+LATO-B.ST,2025-05-27,buy
+LATO-B.ST,2025-06-04,watchlist
+LATO-B.ST,2025-06-05,buy
+LATO-B.ST,2025-06-23,reset (expired)
+LATO-B.ST,2025-06-26,watchlist
+LATO-B.ST,2025-06-27,buy
+LATO-B.ST,2025-07-17,reset (expired)
+LATO-B.ST,2025-07-18,buy
+LATO-B.ST,2025-08-04,watchlist
+LATO-B.ST,2025-08-05,buy
+LIAB.ST,2025-05-13,watchlist
+LIAB.ST,2025-05-14,buy
+LIAB.ST,2025-05-30,reset (expired)
+LIAB.ST,2025-06-04,buy
+LIAB.ST,2025-06-23,reset (expired)
+LIAB.ST,2025-06-26,watchlist
+LIAB.ST,2025-06-27,buy
+LIAB.ST,2025-07-02,watchlist
+LIAB.ST,2025-07-04,buy
+LIAB.ST,2025-07-18,watchlist
+LIAB.ST,2025-07-21,buy
+LIAB.ST,2025-08-01,sell
+LIAB.ST,2025-08-04,watchlist
+LIAB.ST,2025-08-05,buy
+LIFCO-B.ST,2025-05-13,watchlist
+LIFCO-B.ST,2025-05-16,buy
+LIFCO-B.ST,2025-06-02,reset (expired)
+LIFCO-B.ST,2025-06-03,buy
+LIFCO-B.ST,2025-06-19,reset (expired)
+LIFCO-B.ST,2025-06-26,watchlist
+LIFCO-B.ST,2025-06-27,buy
+LIFCO-B.ST,2025-07-17,watchlist
+LIFCO-B.ST,2025-07-18,buy
+LIFCO-B.ST,2025-07-28,watchlist
+LIFCO-B.ST,2025-08-04,buy
+LIME.ST,2025-05-13,watchlist
+LIME.ST,2025-05-14,buy
+LIME.ST,2025-05-30,reset (expired)
+LIME.ST,2025-06-02,buy
+LIME.ST,2025-06-19,reset (expired)
+LIME.ST,2025-06-26,watchlist
+LIME.ST,2025-06-27,buy
+LIME.ST,2025-07-17,reset (expired)
+LIME.ST,2025-07-25,watchlist
+LOOMIS.ST,2025-05-13,watchlist
+LOOMIS.ST,2025-05-16,buy
+LOOMIS.ST,2025-06-02,reset (expired)
+LOOMIS.ST,2025-06-03,watchlist
+LOOMIS.ST,2025-06-04,buy
+LOOMIS.ST,2025-06-23,reset (expired)
+LOOMIS.ST,2025-06-26,buy
+LOOMIS.ST,2025-07-10,watchlist
+LOOMIS.ST,2025-07-11,buy
+LOOMIS.ST,2025-07-28,reset (expired)
+LOOMIS.ST,2025-07-30,buy
+LUND-B.ST,2025-05-13,watchlist
+LUND-B.ST,2025-05-16,buy
+LUND-B.ST,2025-05-26,watchlist
+LUND-B.ST,2025-05-30,buy
+LUND-B.ST,2025-06-04,watchlist
+LUND-B.ST,2025-06-05,buy
+LUND-B.ST,2025-06-23,reset (expired)
+LUND-B.ST,2025-06-26,buy
+LUND-B.ST,2025-07-10,watchlist
+LUND-B.ST,2025-07-11,buy
+LUND-B.ST,2025-07-25,watchlist
+LUND-B.ST,2025-07-28,buy
+MCAP.ST,2025-05-14,watchlist
+MCAP.ST,2025-05-27,buy
+MCAP.ST,2025-06-04,watchlist
+MCAP.ST,2025-06-05,buy
+MCAP.ST,2025-06-23,reset (expired)
+MCAP.ST,2025-06-26,buy
+MCAP.ST,2025-07-17,reset (expired)
+MCAP.ST,2025-07-18,watchlist
+MCAP.ST,2025-07-21,buy
+MCAP.ST,2025-08-04,watchlist
+MCAP.ST,2025-08-05,buy
+MCOV-B.ST,2025-05-13,watchlist
+MCOV-B.ST,2025-05-14,buy
+MCOV-B.ST,2025-05-26,watchlist
+MCOV-B.ST,2025-05-27,buy
+MCOV-B.ST,2025-06-13,reset (expired)
+MCOV-B.ST,2025-06-16,buy
+MCOV-B.ST,2025-07-02,reset (expired)
+MCOV-B.ST,2025-07-04,buy
+MCOV-B.ST,2025-07-21,reset (expired)
+MCOV-B.ST,2025-07-25,buy
+MEKO.ST,2025-05-13,watchlist
+MEKO.ST,2025-05-26,buy
+MEKO.ST,2025-06-11,reset (expired)
+MEKO.ST,2025-06-26,watchlist
+MEKO.ST,2025-06-27,buy
+MEKO.ST,2025-07-02,watchlist
+MEKO.ST,2025-07-04,buy
+MEKO.ST,2025-07-21,reset (expired)
+MEKO.ST,2025-07-25,watchlist
+MEKO.ST,2025-07-28,buy
+MEKO.ST,2025-08-06,watchlist
+MEKO.ST,2025-08-08,buy
+MILDEF.ST,2025-05-14,watchlist
+MILDEF.ST,2025-05-15,buy
+MILDEF.ST,2025-06-02,reset (expired)
+MILDEF.ST,2025-06-03,sell
+MILDEF.ST,2025-06-04,watchlist
+MILDEF.ST,2025-06-23,reset (expired)
+MILDEF.ST,2025-06-26,watchlist
+MILDEF.ST,2025-07-04,buy
+MILDEF.ST,2025-07-11,sell
+MILDEF.ST,2025-07-18,watchlist
+MILDEF.ST,2025-07-21,buy
+MILDEF.ST,2025-08-04,watchlist
+MILDEF.ST,2025-08-05,buy
+MIPS.ST,2025-05-13,watchlist
+MIPS.ST,2025-05-30,buy
+MIPS.ST,2025-06-16,reset (expired)
+MIPS.ST,2025-06-23,sell
+MIPS.ST,2025-06-26,watchlist
+MIPS.ST,2025-06-27,buy
+MIPS.ST,2025-07-17,reset (expired)
+MIPS.ST,2025-07-21,buy
+MIPS.ST,2025-08-06,reset (expired)
+MMGR-B.ST,2025-05-13,watchlist
+MMGR-B.ST,2025-05-16,buy
+MMGR-B.ST,2025-06-02,reset (expired)
+MMGR-B.ST,2025-06-03,watchlist
+MMGR-B.ST,2025-06-04,buy
+MMGR-B.ST,2025-06-13,watchlist
+MMGR-B.ST,2025-06-27,buy
+MMGR-B.ST,2025-07-04,watchlist
+MMGR-B.ST,2025-07-21,reset (expired)
+MMGR-B.ST,2025-07-25,watchlist
+MMGR-B.ST,2025-08-06,buy
+MTG-A.ST,2025-05-13,watchlist
+MTG-A.ST,2025-05-14,buy
+MTG-A.ST,2025-05-19,watchlist
+MTG-A.ST,2025-05-20,buy
+MTG-A.ST,2025-06-05,watchlist
+MTG-A.ST,2025-06-11,buy
+MTG-A.ST,2025-06-27,reset (expired)
+MTG-A.ST,2025-06-30,buy
+MTG-A.ST,2025-07-09,watchlist
+MTG-A.ST,2025-07-25,reset (expired)
+MTG-A.ST,2025-07-28,watchlist
+MTG-A.ST,2025-07-30,buy
+MTRS.ST,2025-05-13,watchlist
+MTRS.ST,2025-05-27,buy
+MTRS.ST,2025-06-13,reset (expired)
+MTRS.ST,2025-06-16,watchlist
+MTRS.ST,2025-06-27,buy
+MTRS.ST,2025-07-11,watchlist
+MTRS.ST,2025-07-17,buy
+MTRS.ST,2025-07-28,watchlist
+MTRS.ST,2025-07-30,buy
+MTRS.ST,2025-08-05,watchlist
+MYCR.ST,2025-05-13,watchlist
+MYCR.ST,2025-05-14,buy
+MYCR.ST,2025-05-21,watchlist
+MYCR.ST,2025-06-05,buy
+MYCR.ST,2025-06-11,watchlist
+MYCR.ST,2025-06-13,sell
+MYCR.ST,2025-06-16,watchlist
+MYCR.ST,2025-06-19,buy
+MYCR.ST,2025-07-04,watchlist
+MYCR.ST,2025-07-07,buy
+MYCR.ST,2025-07-25,reset (expired)
+MYCR.ST,2025-07-28,watchlist
+MYCR.ST,2025-07-30,buy
+NCAB.ST,2025-05-13,watchlist
+NCAB.ST,2025-05-14,buy
+NCAB.ST,2025-05-30,reset (expired)
+NCAB.ST,2025-06-03,buy
+NCAB.ST,2025-06-13,sell
+NCAB.ST,2025-06-26,watchlist
+NCAB.ST,2025-06-27,buy
+NCAB.ST,2025-07-17,reset (expired)
+NCAB.ST,2025-07-18,buy
+NCAB.ST,2025-07-28,watchlist
+NCC-A.ST,2025-05-13,watchlist
+NCC-A.ST,2025-05-14,buy
+NCC-A.ST,2025-05-30,reset (expired)
+NCC-A.ST,2025-06-03,buy
+NCC-A.ST,2025-06-19,reset (expired)
+NCC-A.ST,2025-06-26,buy
+NCC-A.ST,2025-07-17,reset (expired)
+NCC-A.ST,2025-07-21,buy
+NCC-A.ST,2025-08-06,reset (expired)
+NCC-A.ST,2025-08-08,buy
+NDA-SE.ST,2025-05-14,watchlist
+NDA-SE.ST,2025-05-15,buy
+NDA-SE.ST,2025-06-02,reset (expired)
+NDA-SE.ST,2025-06-03,buy
+NDA-SE.ST,2025-06-23,reset (expired)
+NDA-SE.ST,2025-06-26,buy
+NDA-SE.ST,2025-07-17,reset (expired)
+NDA-SE.ST,2025-07-18,buy
+NDA-SE.ST,2025-08-04,reset (expired)
+NDA-SE.ST,2025-08-05,buy
+NEWA-B.ST,2025-05-13,watchlist
+NEWA-B.ST,2025-05-14,buy
+NEWA-B.ST,2025-05-19,watchlist
+NEWA-B.ST,2025-05-27,buy
+NEWA-B.ST,2025-06-13,reset (expired)
+NEWA-B.ST,2025-06-16,buy
+NEWA-B.ST,2025-07-02,reset (expired)
+NEWA-B.ST,2025-07-04,buy
+NEWA-B.ST,2025-07-21,watchlist
+NEWA-B.ST,2025-07-25,buy
+NIBE-B.ST,2025-05-13,watchlist
+NIBE-B.ST,2025-05-14,buy
+NIBE-B.ST,2025-05-26,watchlist
+NIBE-B.ST,2025-05-27,buy
+NIBE-B.ST,2025-06-04,watchlist
+NIBE-B.ST,2025-06-05,buy
+NIBE-B.ST,2025-06-11,watchlist
+NIBE-B.ST,2025-06-27,buy
+NIBE-B.ST,2025-07-17,reset (expired)
+NIBE-B.ST,2025-07-18,watchlist
+NIBE-B.ST,2025-07-28,buy
+NIBE-B.ST,2025-08-01,sell
+NIBE-B.ST,2025-08-06,watchlist
+NIBE-B.ST,2025-08-08,buy
+NMAN.ST,2025-05-13,watchlist
+NMAN.ST,2025-05-16,buy
+NMAN.ST,2025-06-02,reset (expired)
+NMAN.ST,2025-06-03,buy
+NMAN.ST,2025-06-19,reset (expired)
+NMAN.ST,2025-06-27,watchlist
+NMAN.ST,2025-06-30,buy
+NMAN.ST,2025-07-17,reset (expired)
+NMAN.ST,2025-07-18,watchlist
+NMAN.ST,2025-07-21,buy
+NMAN.ST,2025-08-06,reset (expired)
+NMAN.ST,2025-08-08,watchlist
+NOLA-B.ST,2025-05-13,watchlist
+NOLA-B.ST,2025-05-14,buy
+NOLA-B.ST,2025-05-19,watchlist
+NOLA-B.ST,2025-05-20,buy
+NOLA-B.ST,2025-05-26,watchlist
+NOLA-B.ST,2025-05-27,buy
+NOLA-B.ST,2025-06-13,reset (expired)
+NOLA-B.ST,2025-06-23,watchlist
+NOLA-B.ST,2025-06-26,buy
+NOLA-B.ST,2025-07-17,reset (expired)
+NOLA-B.ST,2025-07-18,buy
+NOLA-B.ST,2025-08-04,reset (expired)
+NOLA-B.ST,2025-08-05,watchlist
+NOLA-B.ST,2025-08-06,buy
+NORION.ST,2025-05-13,watchlist
+NORION.ST,2025-05-16,buy
+NORION.ST,2025-06-02,reset (expired)
+NORION.ST,2025-06-03,buy
+NORION.ST,2025-06-09,watchlist
+NORION.ST,2025-06-10,buy
+NORION.ST,2025-06-26,reset (expired)
+NORION.ST,2025-06-27,watchlist
+NORION.ST,2025-06-30,buy
+NORION.ST,2025-07-17,watchlist
+NORION.ST,2025-07-18,buy
+NORION.ST,2025-08-04,watchlist
+NORION.ST,2025-08-05,buy
+NP3.ST,2025-05-13,watchlist
+NP3.ST,2025-05-16,buy
+NP3.ST,2025-05-26,watchlist
+NP3.ST,2025-05-27,buy
+NP3.ST,2025-06-13,reset (expired)
+NP3.ST,2025-06-16,buy
+NP3.ST,2025-06-30,watchlist
+NP3.ST,2025-07-04,buy
+NP3.ST,2025-07-11,watchlist
+NP3.ST,2025-07-17,buy
+NP3.ST,2025-08-04,watchlist
+NP3.ST,2025-08-05,buy
+NYF.ST,2025-05-13,watchlist
+NYF.ST,2025-05-14,buy
+NYF.ST,2025-05-23,watchlist
+NYF.ST,2025-05-26,buy
+NYF.ST,2025-06-11,reset (expired)
+NYF.ST,2025-06-16,buy
+NYF.ST,2025-07-02,reset (expired)
+NYF.ST,2025-07-04,buy
+NYF.ST,2025-07-21,reset (expired)
+NYF.ST,2025-07-25,watchlist
+NYF.ST,2025-07-28,buy
+NYF.ST,2025-08-04,watchlist
+NYF.ST,2025-08-05,buy
+OEM-B.ST,2025-05-14,watchlist
+OEM-B.ST,2025-05-15,buy
+OEM-B.ST,2025-06-02,reset (expired)
+OEM-B.ST,2025-06-03,buy
+OEM-B.ST,2025-06-19,reset (expired)
+OEM-B.ST,2025-06-26,watchlist
+OEM-B.ST,2025-06-27,buy
+OEM-B.ST,2025-07-02,watchlist
+OEM-B.ST,2025-07-04,buy
+OEM-B.ST,2025-07-21,reset (expired)
+OEM-B.ST,2025-07-28,watchlist
+ORES.ST,2025-05-13,watchlist
+ORES.ST,2025-05-14,buy
+ORES.ST,2025-05-20,watchlist
+ORES.ST,2025-05-27,buy
+ORES.ST,2025-06-13,reset (expired)
+ORES.ST,2025-06-16,buy
+ORES.ST,2025-07-02,reset (expired)
+ORES.ST,2025-07-04,buy
+ORES.ST,2025-07-21,reset (expired)
+OSSD.ST,2025-05-13,watchlist
+OSSD.ST,2025-05-30,buy
+OSSD.ST,2025-06-16,reset (expired)
+OSSD.ST,2025-06-19,buy
+OSSD.ST,2025-07-07,reset (expired)
+OSSD.ST,2025-07-18,watchlist
+OSSD.ST,2025-07-21,buy
+OSSD.ST,2025-07-30,sell
+OSSD.ST,2025-08-01,watchlist
+OSSD.ST,2025-08-04,buy
+PDX.ST,2025-05-15,watchlist
+PDX.ST,2025-05-16,buy
+PDX.ST,2025-06-02,reset (expired)
+PDX.ST,2025-06-03,buy
+PDX.ST,2025-06-23,reset (expired)
+PDX.ST,2025-06-27,watchlist
+PDX.ST,2025-06-30,buy
+PDX.ST,2025-07-17,reset (expired)
+PDX.ST,2025-08-05,watchlist
+PDX.ST,2025-08-06,buy
+PEAB-B.ST,2025-05-13,watchlist
+PEAB-B.ST,2025-05-14,buy
+PEAB-B.ST,2025-05-30,reset (expired)
+PEAB-B.ST,2025-06-03,buy
+PEAB-B.ST,2025-06-19,reset (expired)
+PEAB-B.ST,2025-06-27,watchlist
+PEAB-B.ST,2025-06-30,buy
+PEAB-B.ST,2025-07-04,watchlist
+PEAB-B.ST,2025-07-21,reset (expired)
+PEAB-B.ST,2025-07-25,watchlist
+PEAB-B.ST,2025-07-28,buy
+PEAB-B.ST,2025-08-04,watchlist
+PEAB-B.ST,2025-08-05,buy
+PLAZ-B.ST,2025-05-13,watchlist
+PLAZ-B.ST,2025-05-14,buy
+PLAZ-B.ST,2025-05-30,reset (expired)
+PLAZ-B.ST,2025-06-05,watchlist
+PLAZ-B.ST,2025-06-09,buy
+PLAZ-B.ST,2025-06-26,reset (expired)
+PLAZ-B.ST,2025-06-27,buy
+PLAZ-B.ST,2025-07-04,watchlist
+PLAZ-B.ST,2025-07-07,buy
+PLAZ-B.ST,2025-07-21,watchlist
+PLAZ-B.ST,2025-07-25,buy
+PLAZ-B.ST,2025-08-04,watchlist
+PLAZ-B.ST,2025-08-05,buy
+PLEJD.ST,2025-05-13,watchlist
+PLEJD.ST,2025-05-14,buy
+PLEJD.ST,2025-05-19,watchlist
+PLEJD.ST,2025-05-20,buy
+PLEJD.ST,2025-06-05,reset (expired)
+PLEJD.ST,2025-06-09,buy
+PLEJD.ST,2025-06-26,watchlist
+PLEJD.ST,2025-07-01,buy
+PLEJD.ST,2025-07-17,watchlist
+PLEJD.ST,2025-07-18,buy
+PLEJD.ST,2025-08-04,watchlist
+PLEJD.ST,2025-08-05,buy
+PNDX-B.ST,2025-05-13,watchlist
+PNDX-B.ST,2025-05-14,buy
+PNDX-B.ST,2025-05-27,watchlist
+PNDX-B.ST,2025-06-02,buy
+PNDX-B.ST,2025-06-16,watchlist
+PNDX-B.ST,2025-06-19,buy
+PNDX-B.ST,2025-07-07,reset (expired)
+PNDX-B.ST,2025-07-17,watchlist
+PNDX-B.ST,2025-07-18,buy
+PNDX-B.ST,2025-08-04,watchlist
+PNDX-B.ST,2025-08-05,buy
+RATO-A.ST,2025-05-13,watchlist
+RATO-A.ST,2025-05-16,buy
+RATO-A.ST,2025-06-02,reset (expired)
+RATO-A.ST,2025-06-03,watchlist
+RATO-A.ST,2025-06-04,buy
+RATO-A.ST,2025-06-23,reset (expired)
+RATO-A.ST,2025-06-26,watchlist
+RATO-A.ST,2025-07-11,buy
+RATO-A.ST,2025-07-17,sell
+RATO-A.ST,2025-07-21,watchlist
+RATO-A.ST,2025-07-25,buy
+RATO-A.ST,2025-08-06,watchlist
+RATO-A.ST,2025-08-08,buy
+RAY-B.ST,2025-05-13,watchlist
+RAY-B.ST,2025-05-14,buy
+RAY-B.ST,2025-05-30,reset (expired)
+RAY-B.ST,2025-06-02,buy
+RAY-B.ST,2025-06-13,sell
+RAY-B.ST,2025-06-19,watchlist
+RAY-B.ST,2025-06-23,buy
+RAY-B.ST,2025-07-10,reset (expired)
+RAY-B.ST,2025-07-17,buy
+RAY-B.ST,2025-07-30,watchlist
+RAY-B.ST,2025-08-01,buy
+RESURS.ST,2025-05-13,watchlist
+RESURS.ST,2025-05-14,buy
+RESURS.ST,2025-05-30,reset (expired)
+RESURS.ST,2025-06-02,buy
+RESURS.ST,2025-06-19,watchlist
+RESURS.ST,2025-06-23,buy
+RESURS.ST,2025-07-10,reset (expired)
+RESURS.ST,2025-07-11,buy
+RESURS.ST,2025-07-28,reset (expired)
+RESURS.ST,2025-07-30,buy
+ROKO-B.ST,2025-05-13,watchlist
+ROKO-B.ST,2025-05-16,buy
+ROKO-B.ST,2025-06-02,reset (expired)
+ROKO-B.ST,2025-06-04,buy
+ROKO-B.ST,2025-06-23,watchlist
+ROKO-B.ST,2025-06-26,buy
+ROKO-B.ST,2025-07-17,watchlist
+ROKO-B.ST,2025-07-18,buy
+ROKO-B.ST,2025-07-25,sell
+ROKO-B.ST,2025-08-01,watchlist
+RUSTA.ST,2025-05-14,watchlist
+RUSTA.ST,2025-05-28,buy
+RUSTA.ST,2025-06-13,reset (expired)
+RUSTA.ST,2025-06-16,buy
+RUSTA.ST,2025-06-30,watchlist
+RUSTA.ST,2025-07-01,buy
+RUSTA.ST,2025-07-17,reset (expired)
+RUSTA.ST,2025-07-18,buy
+RUSTA.ST,2025-08-04,watchlist
+SAAB-B.ST,2025-05-13,watchlist
+SAAB-B.ST,2025-05-16,buy
+SAAB-B.ST,2025-06-02,reset (expired)
+SAAB-B.ST,2025-06-04,buy
+SAAB-B.ST,2025-06-23,reset (expired)
+SAAB-B.ST,2025-06-26,buy
+SAAB-B.ST,2025-07-01,sell
+SAAB-B.ST,2025-07-04,watchlist
+SAAB-B.ST,2025-07-21,buy
+SAAB-B.ST,2025-08-06,reset (expired)
+SAGA-A.ST,2025-05-13,watchlist
+SAGA-A.ST,2025-05-14,buy
+SAGA-A.ST,2025-05-30,reset (expired)
+SAGA-A.ST,2025-06-02,buy
+SAGA-A.ST,2025-06-19,reset (expired)
+SAGA-A.ST,2025-06-26,buy
+SAGA-A.ST,2025-07-17,reset (expired)
+SAGA-A.ST,2025-07-21,buy
+SAGA-A.ST,2025-08-06,reset (expired)
+SAGA-A.ST,2025-08-08,buy
+SAND.ST,2025-05-13,watchlist
+SAND.ST,2025-05-21,buy
+SAND.ST,2025-05-26,watchlist
+SAND.ST,2025-05-27,buy
+SAND.ST,2025-06-13,reset (expired)
+SAND.ST,2025-06-16,buy
+SAND.ST,2025-07-02,reset (expired)
+SAND.ST,2025-07-04,buy
+SAND.ST,2025-07-21,reset (expired)
+SAND.ST,2025-07-25,buy
+SAND.ST,2025-07-30,watchlist
+SAND.ST,2025-08-05,buy
+SAVE.ST,2025-05-14,watchlist
+SAVE.ST,2025-05-15,buy
+SAVE.ST,2025-05-26,watchlist
+SAVE.ST,2025-06-04,buy
+SAVE.ST,2025-06-23,reset (expired)
+SAVE.ST,2025-06-26,buy
+SAVE.ST,2025-07-04,watchlist
+SAVE.ST,2025-07-07,buy
+SAVE.ST,2025-07-25,reset (expired)
+SAVE.ST,2025-08-04,buy
+SBB-B.ST,2025-05-13,watchlist
+SBB-B.ST,2025-05-14,buy
+SBB-B.ST,2025-05-30,reset (expired)
+SBB-B.ST,2025-06-02,buy
+SBB-B.ST,2025-06-19,reset (expired)
+SBB-B.ST,2025-06-26,sell
+SBB-B.ST,2025-06-27,watchlist
+SBB-B.ST,2025-07-17,reset (expired)
+SBB-B.ST,2025-08-04,watchlist
+SBB-B.ST,2025-08-05,buy
+SCA-A.ST,2025-05-13,watchlist
+SCA-A.ST,2025-05-14,buy
+SCA-A.ST,2025-05-30,reset (expired)
+SCA-A.ST,2025-06-02,buy
+SCA-A.ST,2025-06-09,watchlist
+SCA-A.ST,2025-06-10,buy
+SCA-A.ST,2025-06-26,reset (expired)
+SCA-A.ST,2025-06-27,buy
+SCA-A.ST,2025-07-17,reset (expired)
+SCA-A.ST,2025-07-21,buy
+SCA-A.ST,2025-08-06,reset (expired)
+SCA-A.ST,2025-08-08,buy
+SCA-B.ST,2025-05-13,watchlist
+SCA-B.ST,2025-05-21,buy
+SCA-B.ST,2025-06-05,watchlist
+SCA-B.ST,2025-06-09,buy
+SCA-B.ST,2025-06-26,reset (expired)
+SCA-B.ST,2025-06-27,buy
+SCA-B.ST,2025-07-17,reset (expired)
+SCA-B.ST,2025-07-18,buy
+SCA-B.ST,2025-08-04,reset (expired)
+SCA-B.ST,2025-08-05,watchlist
+SCA-B.ST,2025-08-06,buy
+SCST.ST,2025-05-13,watchlist
+SCST.ST,2025-05-16,buy
+SCST.ST,2025-06-02,reset (expired)
+SCST.ST,2025-06-03,watchlist
+SCST.ST,2025-06-04,buy
+SCST.ST,2025-06-23,reset (expired)
+SCST.ST,2025-06-27,buy
+SCST.ST,2025-07-17,reset (expired)
+SCST.ST,2025-07-18,buy
+SCST.ST,2025-08-04,reset (expired)
+SCST.ST,2025-08-05,buy
+SDIP-B.ST,2025-05-13,watchlist
+SDIP-B.ST,2025-05-14,buy
+SDIP-B.ST,2025-05-30,watchlist
+SDIP-B.ST,2025-06-02,buy
+SDIP-B.ST,2025-06-13,sell
+SDIP-B.ST,2025-06-26,watchlist
+SDIP-B.ST,2025-06-27,buy
+SDIP-B.ST,2025-07-17,reset (expired)
+SDIP-B.ST,2025-07-18,watchlist
+SDIP-B.ST,2025-07-28,buy
+SDIP-B.ST,2025-08-04,watchlist
+SDIP-B.ST,2025-08-05,buy
+SEB-A.ST,2025-05-13,watchlist
+SEB-A.ST,2025-05-14,buy
+SEB-A.ST,2025-05-30,reset (expired)
+SEB-A.ST,2025-06-02,buy
+SEB-A.ST,2025-06-16,watchlist
+SEB-A.ST,2025-06-19,buy
+SEB-A.ST,2025-07-07,reset (expired)
+SEB-A.ST,2025-07-10,buy
+SEB-A.ST,2025-07-28,reset (expired)
+SEB-A.ST,2025-07-30,buy
+SEB-A.ST,2025-08-04,watchlist
+SEB-A.ST,2025-08-05,buy
+SECARE.ST,2025-05-14,watchlist
+SECARE.ST,2025-05-19,buy
+SECARE.ST,2025-05-22,sell
+SECARE.ST,2025-05-26,watchlist
+SECARE.ST,2025-05-27,buy
+SECARE.ST,2025-06-13,reset (expired)
+SECARE.ST,2025-06-27,watchlist
+SECARE.ST,2025-06-30,buy
+SECARE.ST,2025-07-17,reset (expired)
+SECARE.ST,2025-07-25,sell
+SECARE.ST,2025-08-04,watchlist
+SECT-B.ST,2025-05-13,watchlist
+SECT-B.ST,2025-05-14,buy
+SECT-B.ST,2025-05-30,reset (expired)
+SECT-B.ST,2025-06-02,buy
+SECT-B.ST,2025-06-13,sell
+SECT-B.ST,2025-06-19,watchlist
+SECT-B.ST,2025-06-23,buy
+SECT-B.ST,2025-07-10,reset (expired)
+SECT-B.ST,2025-07-17,buy
+SECT-B.ST,2025-08-04,reset (expired)
+SECT-B.ST,2025-08-05,buy
+SECU-B.ST,2025-05-13,watchlist
+SECU-B.ST,2025-05-16,buy
+SECU-B.ST,2025-05-26,watchlist
+SECU-B.ST,2025-05-27,buy
+SECU-B.ST,2025-06-13,reset (expired)
+SECU-B.ST,2025-06-16,buy
+SECU-B.ST,2025-07-02,reset (expired)
+SECU-B.ST,2025-07-04,buy
+SECU-B.ST,2025-07-17,watchlist
+SECU-B.ST,2025-07-18,buy
+SECU-B.ST,2025-08-04,reset (expired)
+SECU-B.ST,2025-08-05,buy
+SHB-A.ST,2025-05-14,watchlist
+SHB-A.ST,2025-05-15,buy
+SHB-A.ST,2025-06-02,reset (expired)
+SHB-A.ST,2025-06-03,buy
+SHB-A.ST,2025-06-19,reset (expired)
+SHB-A.ST,2025-06-26,buy
+SHB-A.ST,2025-07-17,reset (expired)
+SHB-A.ST,2025-07-18,buy
+SHB-A.ST,2025-07-30,watchlist
+SHB-A.ST,2025-08-05,buy
+SHOT.ST,2025-05-13,watchlist
+SHOT.ST,2025-05-14,buy
+SHOT.ST,2025-05-30,reset (expired)
+SHOT.ST,2025-06-03,buy
+SHOT.ST,2025-06-19,reset (expired)
+SHOT.ST,2025-06-26,buy
+SHOT.ST,2025-07-17,reset (expired)
+SHOT.ST,2025-07-28,watchlist
+SHOT.ST,2025-08-05,buy
+SINCH.ST,2025-05-13,watchlist
+SINCH.ST,2025-05-14,buy
+SINCH.ST,2025-05-30,reset (expired)
+SINCH.ST,2025-06-02,buy
+SINCH.ST,2025-06-19,reset (expired)
+SINCH.ST,2025-06-26,buy
+SINCH.ST,2025-07-17,reset (expired)
+SINCH.ST,2025-07-18,buy
+SINCH.ST,2025-08-04,reset (expired)
+SINCH.ST,2025-08-06,buy
+SKA-B.ST,2025-05-13,watchlist
+SKA-B.ST,2025-05-14,buy
+SKA-B.ST,2025-05-26,watchlist
+SKA-B.ST,2025-06-02,buy
+SKA-B.ST,2025-06-16,watchlist
+SKA-B.ST,2025-07-02,reset (expired)
+SKA-B.ST,2025-07-07,watchlist
+SKA-B.ST,2025-07-10,buy
+SKA-B.ST,2025-07-25,watchlist
+SKA-B.ST,2025-07-28,buy
+SKA-B.ST,2025-08-05,watchlist
+SKA-B.ST,2025-08-06,buy
+SKF-A.ST,2025-05-13,watchlist
+SKF-A.ST,2025-05-16,buy
+SKF-A.ST,2025-05-26,watchlist
+SKF-A.ST,2025-05-27,buy
+SKF-A.ST,2025-06-04,watchlist
+SKF-A.ST,2025-06-05,buy
+SKF-A.ST,2025-06-23,reset (expired)
+SKF-A.ST,2025-06-26,buy
+SKF-A.ST,2025-07-02,watchlist
+SKF-A.ST,2025-07-04,buy
+SKF-A.ST,2025-07-21,reset (expired)
+SKF-A.ST,2025-07-25,buy
+SKF-A.ST,2025-08-05,watchlist
+SKF-A.ST,2025-08-06,buy
+SKF-B.ST,2025-05-13,watchlist
+SKF-B.ST,2025-05-27,buy
+SKF-B.ST,2025-06-13,reset (expired)
+SKF-B.ST,2025-06-16,buy
+SKF-B.ST,2025-07-02,reset (expired)
+SKF-B.ST,2025-07-10,buy
+SKF-B.ST,2025-07-28,reset (expired)
+SKF-B.ST,2025-07-30,buy
+SKIS-B.ST,2025-05-13,watchlist
+SKIS-B.ST,2025-05-14,buy
+SKIS-B.ST,2025-05-30,reset (expired)
+SKIS-B.ST,2025-06-03,buy
+SKIS-B.ST,2025-06-19,reset (expired)
+SKIS-B.ST,2025-06-23,buy
+SKIS-B.ST,2025-07-10,reset (expired)
+SKIS-B.ST,2025-07-18,buy
+SKIS-B.ST,2025-08-04,reset (expired)
+SKIS-B.ST,2025-08-05,watchlist
+SKIS-B.ST,2025-08-06,buy
+SLP-B.ST,2025-05-15,watchlist
+SLP-B.ST,2025-05-16,buy
+SLP-B.ST,2025-05-23,watchlist
+SLP-B.ST,2025-05-26,buy
+SLP-B.ST,2025-06-05,watchlist
+SLP-B.ST,2025-06-11,buy
+SLP-B.ST,2025-06-26,watchlist
+SLP-B.ST,2025-07-04,buy
+SLP-B.ST,2025-07-21,reset (expired)
+SLP-B.ST,2025-07-25,buy
+SLP-B.ST,2025-08-04,watchlist
+SLP-B.ST,2025-08-05,buy
+SOBI.ST,2025-05-13,watchlist
+SOBI.ST,2025-05-16,buy
+SOBI.ST,2025-05-30,watchlist
+SOBI.ST,2025-06-02,buy
+SOBI.ST,2025-06-13,sell
+SOBI.ST,2025-06-26,watchlist
+SOBI.ST,2025-06-27,buy
+SOBI.ST,2025-07-17,reset (expired)
+SOBI.ST,2025-07-25,watchlist
+SOBI.ST,2025-07-28,buy
+SSAB-A.ST,2025-05-16,watchlist
+SSAB-A.ST,2025-05-21,buy
+SSAB-A.ST,2025-06-09,reset (expired)
+SSAB-A.ST,2025-06-10,watchlist
+SSAB-A.ST,2025-06-26,reset (expired)
+SSAB-A.ST,2025-06-27,watchlist
+SSAB-A.ST,2025-07-04,buy
+SSAB-A.ST,2025-07-21,watchlist
+SSAB-A.ST,2025-08-06,reset (expired)
+SSAB-A.ST,2025-08-08,watchlist
+STEF-B.ST,2025-05-13,watchlist
+STEF-B.ST,2025-05-14,buy
+STEF-B.ST,2025-05-22,watchlist
+STEF-B.ST,2025-05-30,buy
+STEF-B.ST,2025-06-04,watchlist
+STEF-B.ST,2025-06-05,buy
+STEF-B.ST,2025-06-23,reset (expired)
+STEF-B.ST,2025-06-26,buy
+STEF-B.ST,2025-07-11,watchlist
+STEF-B.ST,2025-07-17,buy
+STEF-B.ST,2025-08-04,reset (expired)
+STEF-B.ST,2025-08-05,buy
+STOR-B.ST,2025-05-16,watchlist
+STOR-B.ST,2025-05-27,buy
+STOR-B.ST,2025-06-02,watchlist
+STOR-B.ST,2025-06-03,buy
+STOR-B.ST,2025-06-19,reset (expired)
+STOR-B.ST,2025-06-26,buy
+STOR-B.ST,2025-07-17,reset (expired)
+STOR-B.ST,2025-07-18,buy
+STOR-B.ST,2025-08-04,reset (expired)
+STOR-B.ST,2025-08-05,buy
+STORY-B.ST,2025-05-13,watchlist
+STORY-B.ST,2025-05-14,buy
+STORY-B.ST,2025-05-30,reset (expired)
+STORY-B.ST,2025-06-04,buy
+STORY-B.ST,2025-06-16,watchlist
+STORY-B.ST,2025-06-27,buy
+STORY-B.ST,2025-07-04,watchlist
+STORY-B.ST,2025-07-07,buy
+STORY-B.ST,2025-07-25,reset (expired)
+STORY-B.ST,2025-07-28,buy
+SUS.ST,2025-05-14,watchlist
+SUS.ST,2025-05-20,buy
+SUS.ST,2025-05-26,watchlist
+SUS.ST,2025-05-27,buy
+SUS.ST,2025-06-13,sell
+SUS.ST,2025-06-16,watchlist
+SUS.ST,2025-06-27,buy
+SUS.ST,2025-07-04,watchlist
+SUS.ST,2025-07-07,buy
+SUS.ST,2025-07-17,watchlist
+SUS.ST,2025-07-25,buy
+SUS.ST,2025-08-04,watchlist
+SUS.ST,2025-08-05,buy
+SVEAF.ST,2025-05-13,watchlist
+SVEAF.ST,2025-05-14,buy
+SVEAF.ST,2025-05-30,reset (expired)
+SVEAF.ST,2025-06-04,buy
+SVEAF.ST,2025-06-23,watchlist
+SVEAF.ST,2025-06-26,buy
+SVEAF.ST,2025-07-10,watchlist
+SVEAF.ST,2025-07-11,buy
+SVEAF.ST,2025-07-28,watchlist
+SVEAF.ST,2025-08-05,buy
+SVOL-A.ST,2025-05-14,watchlist
+SVOL-A.ST,2025-05-15,buy
+SVOL-A.ST,2025-05-23,watchlist
+SVOL-A.ST,2025-06-09,reset (expired)
+SVOL-A.ST,2025-06-10,watchlist
+SVOL-A.ST,2025-06-13,buy
+SVOL-A.ST,2025-06-17,sell
+SVOL-A.ST,2025-06-19,watchlist
+SVOL-A.ST,2025-06-24,buy
+SVOL-A.ST,2025-07-14,reset (expired)
+SVOL-A.ST,2025-07-31,watchlist
+SWEC-A.ST,2025-05-14,watchlist
+SWEC-A.ST,2025-05-15,buy
+SWEC-A.ST,2025-06-02,reset (expired)
+SWEC-A.ST,2025-06-04,watchlist
+SWEC-A.ST,2025-06-05,buy
+SWEC-A.ST,2025-06-26,watchlist
+SWEC-A.ST,2025-06-27,buy
+SWEC-A.ST,2025-07-17,reset (expired)
+SWEC-A.ST,2025-07-18,buy
+SWEC-A.ST,2025-07-28,watchlist
+SWEC-A.ST,2025-07-30,buy
+SWED-A.ST,2025-05-13,watchlist
+SWED-A.ST,2025-05-14,buy
+SWED-A.ST,2025-05-30,reset (expired)
+SWED-A.ST,2025-06-02,buy
+SWED-A.ST,2025-06-16,watchlist
+SWED-A.ST,2025-06-27,buy
+SWED-A.ST,2025-07-17,reset (expired)
+SWED-A.ST,2025-07-18,buy
+SWED-A.ST,2025-08-04,watchlist
+SWED-A.ST,2025-08-05,buy
+SYNSAM.ST,2025-05-13,watchlist
+SYNSAM.ST,2025-05-19,buy
+SYNSAM.ST,2025-06-04,reset (expired)
+SYNSAM.ST,2025-06-11,buy
+SYNSAM.ST,2025-06-27,watchlist
+SYNSAM.ST,2025-06-30,buy
+SYNSAM.ST,2025-07-17,reset (expired)
+SYNSAM.ST,2025-07-18,buy
+SYNSAM.ST,2025-08-04,reset (expired)
+SYNSAM.ST,2025-08-05,watchlist
+SYSR.ST,2025-05-13,watchlist
+SYSR.ST,2025-05-14,buy
+SYSR.ST,2025-05-19,watchlist
+SYSR.ST,2025-05-20,buy
+SYSR.ST,2025-06-05,reset (expired)
+SYSR.ST,2025-06-10,buy
+SYSR.ST,2025-06-13,sell
+SYSR.ST,2025-06-16,watchlist
+SYSR.ST,2025-06-27,buy
+SYSR.ST,2025-07-17,reset (expired)
+SYSR.ST,2025-07-18,buy
+SYSR.ST,2025-08-04,reset (expired)
+SYSR.ST,2025-08-05,watchlist
+SYSR.ST,2025-08-06,buy
+TEL2-B.ST,2025-05-15,watchlist
+TEL2-B.ST,2025-05-16,buy
+TEL2-B.ST,2025-06-02,reset (expired)
+TEL2-B.ST,2025-06-04,buy
+TEL2-B.ST,2025-06-23,reset (expired)
+TEL2-B.ST,2025-06-27,buy
+TEL2-B.ST,2025-07-17,reset (expired)
+TEL2-B.ST,2025-07-18,buy
+TEL2-B.ST,2025-08-04,reset (expired)
+TEL2-B.ST,2025-08-05,buy
+TELIA.ST,2025-05-15,watchlist
+TELIA.ST,2025-05-16,buy
+TELIA.ST,2025-06-02,reset (expired)
+TELIA.ST,2025-06-03,buy
+TELIA.ST,2025-06-19,reset (expired)
+TELIA.ST,2025-06-27,watchlist
+TELIA.ST,2025-07-02,buy
+TELIA.ST,2025-07-18,watchlist
+TELIA.ST,2025-07-21,buy
+TELIA.ST,2025-08-06,reset (expired)
+TFBANK.ST,2025-05-13,watchlist
+TFBANK.ST,2025-05-16,buy
+TFBANK.ST,2025-06-02,reset (expired)
+TFBANK.ST,2025-06-03,buy
+TFBANK.ST,2025-06-19,reset (expired)
+TFBANK.ST,2025-06-23,buy
+TFBANK.ST,2025-07-10,reset (expired)
+TFBANK.ST,2025-07-11,buy
+TFBANK.ST,2025-07-21,watchlist
+TFBANK.ST,2025-07-25,buy
+THULE.ST,2025-05-13,watchlist
+THULE.ST,2025-05-26,buy
+THULE.ST,2025-06-11,reset (expired)
+THULE.ST,2025-06-16,buy
+THULE.ST,2025-07-02,reset (expired)
+THULE.ST,2025-07-04,buy
+THULE.ST,2025-07-21,reset (expired)
+THULE.ST,2025-07-25,buy
+TREL-B.ST,2025-05-13,watchlist
+TREL-B.ST,2025-05-30,reset (expired)
+TREL-B.ST,2025-06-04,watchlist
+TREL-B.ST,2025-06-05,buy
+TREL-B.ST,2025-06-23,reset (expired)
+TREL-B.ST,2025-06-26,buy
+TREL-B.ST,2025-07-17,reset (expired)
+TREL-B.ST,2025-07-18,watchlist
+TREL-B.ST,2025-08-04,reset (expired)
+TREL-B.ST,2025-08-05,watchlist
+TROAX.ST,2025-05-13,watchlist
+TROAX.ST,2025-05-16,buy
+TROAX.ST,2025-06-02,reset (expired)
+TROAX.ST,2025-06-04,buy
+TROAX.ST,2025-06-19,sell
+TROAX.ST,2025-06-26,watchlist
+TROAX.ST,2025-06-27,buy
+TROAX.ST,2025-07-02,watchlist
+TROAX.ST,2025-07-04,buy
+TROAX.ST,2025-07-11,watchlist
+TROAX.ST,2025-07-17,buy
+TROAX.ST,2025-08-04,reset (expired)
+TROAX.ST,2025-08-05,watchlist
+TRUE-B.ST,2025-05-13,watchlist
+TRUE-B.ST,2025-05-14,buy
+TRUE-B.ST,2025-05-20,watchlist
+TRUE-B.ST,2025-05-27,buy
+TRUE-B.ST,2025-06-13,reset (expired)
+TRUE-B.ST,2025-06-19,sell
+TRUE-B.ST,2025-06-26,watchlist
+TRUE-B.ST,2025-06-27,buy
+TRUE-B.ST,2025-07-17,sell
+TRUE-B.ST,2025-07-18,watchlist
+TRUE-B.ST,2025-07-21,buy
+TRUE-B.ST,2025-07-25,sell
+TRUE-B.ST,2025-08-04,watchlist
+VBG-B.ST,2025-05-13,watchlist
+VBG-B.ST,2025-05-14,buy
+VBG-B.ST,2025-05-30,reset (expired)
+VBG-B.ST,2025-06-02,buy
+VBG-B.ST,2025-06-16,watchlist
+VBG-B.ST,2025-06-27,buy
+VBG-B.ST,2025-07-17,reset (expired)
+VBG-B.ST,2025-07-18,buy
+VBG-B.ST,2025-08-04,reset (expired)
+VBG-B.ST,2025-08-05,watchlist
+VBG-B.ST,2025-08-06,buy
+VER.ST,2025-05-15,watchlist
+VER.ST,2025-05-16,buy
+VER.ST,2025-05-23,sell
+VER.ST,2025-05-28,watchlist
+VER.ST,2025-05-30,buy
+VER.ST,2025-06-02,sell
+VER.ST,2025-06-04,watchlist
+VER.ST,2025-06-05,buy
+VER.ST,2025-06-13,sell
+VER.ST,2025-06-19,watchlist
+VER.ST,2025-06-26,buy
+VER.ST,2025-07-17,reset (expired)
+VER.ST,2025-07-18,buy
+VER.ST,2025-07-25,sell
+VER.ST,2025-08-04,watchlist
+VIMIAN.ST,2025-05-14,watchlist
+VIMIAN.ST,2025-05-15,buy
+VIMIAN.ST,2025-06-02,reset (expired)
+VIMIAN.ST,2025-06-03,buy
+VIMIAN.ST,2025-06-13,sell
+VIMIAN.ST,2025-06-19,watchlist
+VIMIAN.ST,2025-07-07,reset (expired)
+VIMIAN.ST,2025-07-10,watchlist
+VIMIAN.ST,2025-07-11,buy
+VIMIAN.ST,2025-07-28,reset (expired)
+VIMIAN.ST,2025-08-04,watchlist
+VIMIAN.ST,2025-08-05,buy
+VIT-B.ST,2025-05-13,watchlist
+VIT-B.ST,2025-05-16,buy
+VIT-B.ST,2025-05-22,sell
+VIT-B.ST,2025-05-26,watchlist
+VIT-B.ST,2025-05-27,buy
+VIT-B.ST,2025-06-13,reset (expired)
+VIT-B.ST,2025-06-16,buy
+VIT-B.ST,2025-07-02,reset (expired)
+VIT-B.ST,2025-07-04,buy
+VIT-B.ST,2025-07-18,watchlist
+VIT-B.ST,2025-07-21,buy
+VIT-B.ST,2025-08-04,watchlist
+VIT-B.ST,2025-08-05,buy
+VITR.ST,2025-05-13,watchlist
+VITR.ST,2025-05-19,buy
+VITR.ST,2025-05-22,sell
+VITR.ST,2025-05-26,watchlist
+VITR.ST,2025-05-27,buy
+VITR.ST,2025-06-13,reset (expired)
+VITR.ST,2025-06-27,watchlist
+VITR.ST,2025-07-04,buy
+VITR.ST,2025-07-18,watchlist
+VITR.ST,2025-07-21,buy
+VITR.ST,2025-08-05,watchlist
+VOLCAR-B.ST,2025-05-13,watchlist
+VOLCAR-B.ST,2025-05-14,buy
+VOLCAR-B.ST,2025-05-20,watchlist
+VOLCAR-B.ST,2025-05-21,buy
+VOLCAR-B.ST,2025-06-09,reset (expired)
+VOLCAR-B.ST,2025-06-10,buy
+VOLCAR-B.ST,2025-06-26,reset (expired)
+VOLCAR-B.ST,2025-06-27,buy
+VOLCAR-B.ST,2025-07-17,reset (expired)
+VOLCAR-B.ST,2025-07-18,buy
+VOLCAR-B.ST,2025-08-04,reset (expired)
+VOLCAR-B.ST,2025-08-06,buy
+VOLO.ST,2025-05-13,watchlist
+VOLO.ST,2025-05-19,buy
+VOLO.ST,2025-06-04,reset (expired)
+VOLO.ST,2025-06-05,buy
+VOLO.ST,2025-06-23,reset (expired)
+VOLO.ST,2025-06-27,watchlist
+VOLO.ST,2025-07-07,buy
+VOLO.ST,2025-07-17,watchlist
+VOLO.ST,2025-07-18,buy
+VOLO.ST,2025-08-04,reset (expired)
+VOLO.ST,2025-08-06,watchlist
+VOLV-A.ST,2025-05-13,watchlist
+VOLV-A.ST,2025-05-30,reset (expired)
+VOLV-A.ST,2025-06-03,watchlist
+VOLV-A.ST,2025-06-04,buy
+VOLV-A.ST,2025-06-23,reset (expired)
+VOLV-A.ST,2025-06-26,buy
+VOLV-A.ST,2025-07-17,reset (expired)
+VOLV-A.ST,2025-07-21,buy
+VOLV-A.ST,2025-08-06,reset (expired)
+VOLV-A.ST,2025-08-08,buy
+VOLV-B.ST,2025-05-13,watchlist
+VOLV-B.ST,2025-05-14,buy
+VOLV-B.ST,2025-05-20,watchlist
+VOLV-B.ST,2025-05-27,buy
+VOLV-B.ST,2025-06-04,watchlist
+VOLV-B.ST,2025-06-05,buy
+VOLV-B.ST,2025-06-23,reset (expired)
+VOLV-B.ST,2025-06-26,buy
+VOLV-B.ST,2025-07-17,reset (expired)
+VOLV-B.ST,2025-07-21,buy
+VOLV-B.ST,2025-08-06,reset (expired)
+VOLV-B.ST,2025-08-08,buy
+WALL-B.ST,2025-05-13,watchlist
+WALL-B.ST,2025-05-14,buy
+WALL-B.ST,2025-05-23,watchlist
+WALL-B.ST,2025-05-26,buy
+WALL-B.ST,2025-06-11,reset (expired)
+WALL-B.ST,2025-06-19,watchlist
+WALL-B.ST,2025-06-23,buy
+WALL-B.ST,2025-07-10,reset (expired)
+WALL-B.ST,2025-07-17,buy
+WALL-B.ST,2025-08-04,reset (expired)
+WALL-B.ST,2025-08-05,buy
+WIHL.ST,2025-05-13,watchlist
+WIHL.ST,2025-05-16,buy
+WIHL.ST,2025-05-26,watchlist
+WIHL.ST,2025-05-27,buy
+WIHL.ST,2025-06-04,watchlist
+WIHL.ST,2025-06-05,buy
+WIHL.ST,2025-06-23,reset (expired)
+WIHL.ST,2025-06-26,buy
+WIHL.ST,2025-07-17,reset (expired)
+WIHL.ST,2025-07-21,buy
+WIHL.ST,2025-08-06,reset (expired)
+WIHL.ST,2025-08-08,buy
+XACT-OMXS30.ST,2025-05-13,watchlist
+XACT-OMXS30.ST,2025-05-21,buy
+XACT-OMXS30.ST,2025-05-26,watchlist
+XACT-OMXS30.ST,2025-05-27,buy
+XACT-OMXS30.ST,2025-06-03,watchlist
+XACT-OMXS30.ST,2025-06-04,buy
+XACT-OMXS30.ST,2025-06-23,reset (expired)
+XACT-OMXS30.ST,2025-06-26,buy
+XACT-OMXS30.ST,2025-07-17,reset (expired)
+XACT-OMXS30.ST,2025-07-18,buy
+XACT-OMXS30.ST,2025-07-30,watchlist
+XACT-OMXS30.ST,2025-08-05,buy
+XANO-B.ST,2025-05-14,watchlist
+XANO-B.ST,2025-05-15,buy
+XANO-B.ST,2025-06-02,reset (expired)
+XANO-B.ST,2025-06-03,buy
+XANO-B.ST,2025-06-19,watchlist
+XANO-B.ST,2025-07-01,buy
+XANO-B.ST,2025-07-17,sell
+XANO-B.ST,2025-07-25,watchlist
+XANO-B.ST,2025-07-28,buy
+XANO-B.ST,2025-08-05,watchlist
+XANO-B.ST,2025-08-06,buy
+XVIVO.ST,2025-05-13,watchlist
+XVIVO.ST,2025-05-14,buy
+XVIVO.ST,2025-05-22,watchlist
+XVIVO.ST,2025-05-27,buy
+XVIVO.ST,2025-06-13,sell
+XVIVO.ST,2025-06-27,watchlist
+XVIVO.ST,2025-06-30,buy
+XVIVO.ST,2025-07-17,reset (expired)
+XVIVO.ST,2025-07-21,watchlist
+XVIVO.ST,2025-07-25,buy
+XVIVO.ST,2025-07-30,sell
+XVIVO.ST,2025-08-06,watchlist
+YUBICO.ST,2025-05-13,watchlist
+YUBICO.ST,2025-05-19,buy
+YUBICO.ST,2025-05-26,watchlist
+YUBICO.ST,2025-05-27,buy
+YUBICO.ST,2025-06-13,reset (expired)
+YUBICO.ST,2025-06-16,watchlist
+YUBICO.ST,2025-06-19,sell
+YUBICO.ST,2025-06-26,watchlist
+YUBICO.ST,2025-06-27,buy
+YUBICO.ST,2025-07-02,watchlist
+YUBICO.ST,2025-07-10,buy
+YUBICO.ST,2025-07-28,reset (expired)
+YUBICO.ST,2025-08-05,buy
+ZZ-B.ST,2025-05-13,watchlist
+ZZ-B.ST,2025-05-14,buy
+ZZ-B.ST,2025-05-27,watchlist
+ZZ-B.ST,2025-05-28,buy
+ZZ-B.ST,2025-06-09,sell
+ZZ-B.ST,2025-06-10,watchlist
+ZZ-B.ST,2025-06-11,buy
+ZZ-B.ST,2025-06-27,reset (expired)
+ZZ-B.ST,2025-06-30,buy
+ZZ-B.ST,2025-07-04,watchlist
+ZZ-B.ST,2025-07-07,buy
+ZZ-B.ST,2025-07-17,sell
+ZZ-B.ST,2025-07-21,watchlist
+ZZ-B.ST,2025-07-25,buy

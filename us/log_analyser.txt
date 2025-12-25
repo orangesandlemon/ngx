@@ -1,0 +1,61 @@
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_analyser.py", line 31, in <module>
+    print("\U0001f9e0 Filtered DataFrame size:", len(df))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f9e0' in position 0: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_analyser.py", line 31, in <module>
+    print("\U0001f9e0 Filtered DataFrame size:", len(df))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f9e0' in position 0: character maps to <undefined>
+Valid Dates: ['2025-05-28', '2025-05-27']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_analyser.py", line 41, in <module>
+    print("\U0001f9e0 Filtered DataFrame size:", len(df))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f9e0' in position 0: character maps to <undefined>
+Valid Dates: ['2025-05-29', '2025-05-28']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_analyser.py", line 41, in <module>
+    print("\U0001f9e0 Filtered DataFrame size:", len(df))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f9e0' in position 0: character maps to <undefined>
+Valid Dates: ['2025-05-30', '2025-05-29']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_analyser.py", line 41, in <module>
+    print("\U0001f9e0 Filtered DataFrame size:", len(df))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f9e0' in position 0: character maps to <undefined>
+Valid Dates: ['2025-06-01', '2025-05-31']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_analyser.py", line 41, in <module>
+    print("\U0001f9e0 Filtered DataFrame size:", len(df))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f9e0' in position 0: character maps to <undefined>
+Valid Dates: ['2025-06-02', '2025-05-30']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_analyser.py", line 41, in <module>
+    print("\U0001f9e0 Filtered DataFrame size:", len(df))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f9e0' in position 0: character maps to <undefined>

@@ -26,20 +26,23 @@ if %hour% gtr 16 (
     echo Skipping: After 5PM
     exit /b
 )
+@echo off
+cd C:\Users\joyag\Projects\ngx_tracker\sweden
+echo 🔍 Running Daily Swedish scrapper
+python scraper_yahoo.py 
+echo 🔍 Running swedish analyser
+python analyser_se.py 
+echo 🔍 Running institutional_watch_se
+python institutional_watch_se.py
 
+echo 🔍 Running Weekly Trade Intelligence..30
+python weekly_intel.py
 
-cd C:\Users\joyag\Projects\ngx_tracker
+echo Running Weekly 10
+python weekly_intel_short.py
 
-echo 🔍 Running scraper
-python scraper.py
+echo Running Weekly comparator
+python intel_comparator.py
 
-echo 🔍 Running analyser
-python analyser.py
+echo All tasks completed.
 
-echo 🔍 Running financial statements
-python ngx_financial_statements_notifier.py
-
-echo 🔍 Running director dealings
-python ngx_director_dealings_scraper.py
-
-echo ✅ All tasks completed.

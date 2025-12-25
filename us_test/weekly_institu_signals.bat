@@ -27,19 +27,24 @@ if %hour% gtr 16 (
     exit /b
 )
 
+@echo off
+cd C:\Users\joyag\Projects\ngx_tracker\us_test
+echo running scraper
+python us_scraper100.py
 
-cd C:\Users\joyag\Projects\ngx_tracker
+echo running analyser
+python analyser_us_test.py
 
-echo 🔍 Running scraper
-python scraper.py
+echo 🔍 Running Weekly Trade Intelligence..30
+python weekly_intel.py
 
-echo 🔍 Running analyser
-python analyser.py
+echo Running Weekly 10
+python weekly_intel_short.py
 
-echo 🔍 Running financial statements
-python ngx_financial_statements_notifier.py
+echo Running Weekly comparator
+python intel_comparator.py
 
-echo 🔍 Running director dealings
-python ngx_director_dealings_scraper.py
+echo ✅ Analysis tasks completed.
 
-echo ✅ All tasks completed.
+echo ########################################################
+

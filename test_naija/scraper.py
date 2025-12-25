@@ -5,8 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import chromedriver_autoinstaller
-from webdriver_manager.chrome import ChromeDriverManager
 from datetime import datetime
 import pandas as pd
 import sqlite3
@@ -15,39 +13,24 @@ import time
 from datetime import datetime
 
 # Skip if it's Saturday (5) or Sunday (6)
-# if datetime.today().weekday() >= 5:
-#    print("🛑 Market closed (weekend). Exiting.")
-#    exit()
+if datetime.today().weekday() >= 5:
+    print("🛑 Market closed (weekend). Exiting.")
+    exit()
 
 # === CONFIGURATION ===
-
 CHROMEDRIVER_PATH = "C:\\chromedriver\\chromedriver.exe"
 DB_PATH = "data/ngx_equities.db"
 START_URL = "https://ngxgroup.com/exchange/data/equities-price-list/"
 
 # === SETUP DRIVER ===
-# Automatically downloads & installs correct version
-chromedriver_autoinstaller.install()
 options = Options()
 options.add_argument("--headless")
 options.add_argument("--window-size=1920,1080")
-options.add_argument("--start-maximized")
-driver = webdriver.Chrome(
-    service=Service(ChromeDriverManager().install()), options=options
-)
-# driver = webdriver.Chrome(service=Service(CHROMEDRIVER_PATH), options=options)
-
+driver = webdriver.Chrome(service=Service(CHROMEDRIVER_PATH), options=options)
 
 # === UTILS ===
 def clean(text):
-    return (
-        text.strip()
-        .replace(",", "")
-        .replace("₦", "")
-        .replace("--", "")
-        .replace("\u00a0", "")
-    )
-
+    return text.strip().replace(",", "").replace("₦", "").replace("--", "").replace("\u00a0", "")
 
 def safe_float(text):
     try:
@@ -55,13 +38,11 @@ def safe_float(text):
     except:
         return 0.0
 
-
 def safe_int(text):
     try:
         return int(clean(text))
     except:
         return 0
-
 
 # === SCRAPE A SINGLE PAGE ===
 def scrape_current_page():
@@ -97,9 +78,7 @@ def scrape_current_page():
                     "trades": safe_int(cols[7].text),
                     "volume": safe_int(cols[8].text),
                     "value": safe_float(cols[9].text),
-                    "date": datetime.strptime(
-                        cols[10].text.strip(), "%d %b %y"
-                    ).strftime("%Y-%m-%d"),
+                    "date": datetime.strptime(cols[10].text.strip(), "%d %b %y").strftime("%Y-%m-%d")
                 }
                 data.append(record)
 
@@ -115,6 +94,7 @@ def scrape_current_page():
         return []
 
 
+    
 # === HANDLE PAGINATION ===
 def scrape_all_pages():
     print("🚀 Starting NGX equities scrape...")
@@ -146,93 +126,37 @@ def scrape_all_pages():
 
     return pd.DataFrame(all_data)
 
-
 # === STORE TO SQLITE ===
 def store_to_db(df):
     os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
+    today = datetime.now().strftime("%Y-%m-%d")
 
-    # Check if df has a valid date
-    if "date" not in df.columns or df.empty:
-        print("❌ No valid data to store. Skipping DB update.")
-        conn.close()
-        return
-
-    new_date = df["date"].iloc[0]  # Assumes all rows are from same date
-    print(f"📅 New scraped data is for: {new_date}")
-
-    # Get latest date in DB
-    cursor = conn.execute("SELECT MAX(date) FROM equities")
-    result = cursor.fetchone()
-    last_date = result[0] if result else None
-
-    # Backup before delete
-    if last_date == new_date:
-        print(f"📦 Backing up existing data for: {last_date}")
-        backup_df = pd.read_sql(
-            "SELECT * FROM equities WHERE date = ?", conn, params=(last_date,)
-        )
-        backup_df.to_csv(f"backup_equities_{last_date}.csv", index=False)
-
-        print(f"🧹 Deleting old data for: {last_date}")
-        conn.execute("DELETE FROM equities WHERE date = ?", (last_date,))
-    elif last_date:
-        print(
-            f"ℹ️ New data ({new_date}) is for a different day than last DB date ({last_date}). No deletion."
-        )
-    else:
-        print("ℹ️ No previous data in DB. Skipping deletion.")
-
-    # Ensure all columns match database schema
-    insert_cols = [
-        "name",
-        "previous_close",
-        "open",
-        "high",
-        "low",
-        "close",
-        "change",
-        "trades",
-        "volume",
-        "value",
-        "date",
-        "change_pct",
-    ]
-
-    df = df[insert_cols]  # Reorder and restrict to valid DB columns
-
-    rows = [tuple(row[col] for col in insert_cols) for _, row in df.iterrows()]
-    conn.executemany(
-        f"""
-        INSERT OR REPLACE INTO equities 
-        ({', '.join(insert_cols)})
-        VALUES ({', '.join(['?'] * len(insert_cols))})
-    """,
-        rows,
+    # ✅ Load tickers that have a marketcap
+    marketcap_df = pd.read_sql(
+        "SELECT name, marketcap FROM equities WHERE marketcap IS NOT NULL AND marketcap != '' GROUP BY name", conn
     )
 
-    conn.commit()
+    # ✅ Merge to keep only those with a known marketcap
+    df_filtered = df.merge(marketcap_df, on='name', how='inner')  # only stocks with marketcap
+
+    print(f"🔍 Filtered {len(df_filtered)} stocks with marketcap out of {len(df)} total scraped.")
+
+    # 🧹 Delete today's records for only these names
+    for name in df_filtered['name'].unique():
+        conn.execute("DELETE FROM equities WHERE name = ? AND date = ?", (name, today))
+
+    # ✅ Insert filtered rows
+    df_filtered.to_sql("equities", conn, if_exists="append", index=False, method="multi")
     conn.close()
-    print(f"✅ Stored {len(df)} records into database.")
+    print(f"✅ Stored {len(df_filtered)} records into database (marketcap required).")
 
 
 # === MAIN ===
 if __name__ == "__main__":
     os.makedirs("screenshots", exist_ok=True)
     df = scrape_all_pages()
-    expected_cols = [
-        "name",
-        "previous_close",
-        "open",
-        "high",
-        "low",
-        "close",
-        "change",
-        "trades",
-        "volume",
-        "value",
-        "date",
-    ]
+    expected_cols = ['name', 'previous_close', 'open', 'high', 'low', 'close', 'change', 'trades', 'volume', 'value', 'date']
     if not all(col in df.columns for col in expected_cols):
         print("❌ Dataframe missing expected columns!")
         print("📋 Columns found:", df.columns.tolist())
@@ -241,12 +165,6 @@ if __name__ == "__main__":
     driver.quit()
 
     if not df.empty:
-        # === Add computed percentage change ===
-        df["change_pct"] = (
-            (df["close"] - df["previous_close"]) / df["previous_close"]
-        ) * 100
-        df["change_pct"] = df["change_pct"].round(2)
-
         store_to_db(df)
         print(df.head())
     else:

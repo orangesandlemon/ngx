@@ -1,39 +1,26 @@
-# mock_signal.py
 import sqlite3
-from datetime import datetime
+import os
 
-conn = sqlite3.connect("data/ngx_equities.db")
-cursor = conn.cursor()
+DB_PATH = "data/ngx_equities.db"  # or your backup
 
-cursor.execute("""
-CREATE TABLE IF NOT EXISTS signals (
-    name TEXT,
-    date TEXT,
-    signal TEXT,
-    confidence_score INTEGER,
-    volume INTEGER,
-    trades INTEGER,
-    value REAL,
-    close REAL,
-    change REAL,
-    action TEXT,
-    buy_range TEXT,
-    explanation TEXT,
-    limit_up_streak INTEGER
-)
-""")
+try:
+    # Step 1: Confirm file exists
+    if not os.path.exists(DB_PATH):
+        print("❌ DB file not found.")
+    else:
+        # Step 2: Try real write
+        with sqlite3.connect(DB_PATH) as conn:
+            cursor = conn.cursor()
+            cursor.execute("PRAGMA journal_mode=WAL;")  # Switch to WAL if not already
+            cursor.execute("CREATE TABLE IF NOT EXISTS test_lock_check (id INTEGER);")
+            cursor.execute("INSERT INTO test_lock_check (id) VALUES (1);")
+            conn.commit()
+            print("✅ Database is NOT locked. Write succeeded.")
+except sqlite3.OperationalError as e:
+    if "locked" in str(e).lower():
+        print("🔒 Database is LOCKED:", e)
+    else:
+        print("❌ Operational error:", e)
+except Exception as e:
+    print("❌ General error:", e)
 
-cursor.execute("""
-INSERT INTO signals (name, date, signal, confidence_score, volume, trades, value, close, change, action, buy_range, explanation, limit_up_streak)
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-""", (
-    "GTCO", datetime.today().strftime("%Y-%m-%d"),
-    "🚀 Limit-Up Breakout", 95,
-    10_000_000, 120, 75_000_000.0, 34.5, 1.8,
-    "BUY CONFIRMED", "₦34.00 – ₦34.50", "Limit-Up Streak: 3 day(s), Moon Volume, Low Trades",
-    3
-))
-
-conn.commit()
-conn.close()
-print("✅ Mock signal inserted.")

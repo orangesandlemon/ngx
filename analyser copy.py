@@ -11,27 +11,22 @@ from collections import Counter
 DB_PATH = "data/ngx_equities.db"
 
 # Skip if it's Saturday (5) or Sunday (6)
-# if datetime.today().weekday() >= 5:
-#   print("🛑 Market closed (weekend). Exiting.")
-#  exit()
+if datetime.today().weekday() >= 5:
+    print("🛑 Market closed (weekend). Exiting.")
+    exit()
 
 # === LOAD DATA ===
 conn = sqlite3.connect(DB_PATH)
 df = pd.read_sql("SELECT * FROM equities", conn)
-df["date"] = pd.to_datetime(df["date"])
+df['date'] = pd.to_datetime(df['date'])
 df = df.sort_values(by=["name", "date"])
-
-df["previous_close"] = df.groupby("name")["close"].shift(1)
 
 # ✅ TRUE % change = (Close - Previous Close) / Previous Close
 df["change"] = ((df["close"] - df["previous_close"]) / df["previous_close"]) * 100
 df["change"] = df["change"].round(2)
-change_pct = ((df["close"] - df["previous_close"]) / df["previous_close"]) * 100
-
 
 # === MARKET SUMMARY ===
-latest_day = df["date"].max()
-latest_day_str = latest_day.strftime("%Y-%m-%d")
+latest_day = df['date'].max()
 prev_day = latest_day - pd.Timedelta(days=1)
 
 today_df = df[df["date"] == latest_day].copy()
@@ -56,24 +51,19 @@ print(top_volume.to_string(index=False))
 # === Load memory (last 3 days) for each stock ===
 signal_memory = {}
 try:
-    memory_df = pd.read_sql(
-        "SELECT name, date, signal FROM signals ORDER BY date DESC LIMIT 500", conn
-    )
+    memory_df = pd.read_sql("SELECT name, date, signal FROM signals ORDER BY date DESC LIMIT 500", conn)
     for _, row in memory_df.iterrows():
         name = row["name"]
         signal_memory.setdefault(name, []).append(row["signal"])
 except Exception as e:
     print("⚠️ Could not load memory from DB:", e)
 
-
 def format_reason_text(reasons, row):
     expl = []
 
     if any("Limit-Up" in r for r in reasons):
         days = row.get("limit_up_streak", 1)
-        expl.append(
-            f"The stock has hit its daily 10% limit for {int(days)} consecutive day(s)."
-        )
+        expl.append(f"The stock has hit its daily 10% limit for {int(days)} consecutive day(s).")
 
     if "Volume Clustering" in reasons:
         expl.append("Repeated volume spikes detected — institutional loading likely.")
@@ -88,9 +78,7 @@ def format_reason_text(reasons, row):
         expl.append("Many trades with low value — likely retail-driven action.")
 
     if "Breakout Above Recent Range" in reasons:
-        expl.append(
-            "Price broke above recent 5-day high — potential breakout underway."
-        )
+        expl.append("Price broke above recent 5-day high — potential breakout underway.")
 
     if "Higher High & Higher Low" in reasons:
         expl.append("Uptrend confirmed — forming stronger highs and lows.")
@@ -106,19 +94,15 @@ def format_reason_text(reasons, row):
 
     if "Price Down" in reasons:
         expl.append("Price declined — caution or exit may be needed.")
-
+    
     if "15-Day Volume Uptrend" in reasons:
         expl.append("Sustained 15-day volume uptrend. Strong interest building.")
 
     if "10 of 30 Days Institutional Pattern" in reasons:
-        expl.append(
-            "Institutional accumulation footprint seen 10+ times in last 30 days."
-        )
+        expl.append("Institutional accumulation footprint seen 10+ times in last 30 days.")
 
     if "Stealth Accumulation (Volume Up, Price Flat)" in reasons:
-        expl.append(
-            "Volume rising steadily, but price stayed flat — signs of smart entry."
-        )
+        expl.append("Volume rising steadily, but price stayed flat — signs of smart entry.")
 
     if "volume_uptrend" in row and row["volume_uptrend"]:
         expl.append("15-day volume uptrend in progress.")
@@ -130,22 +114,19 @@ def format_reason_text(reasons, row):
         expl.append("Stealth accumulation detected.")
 
     if "Previously detected setup now showing stronger behavior." in reasons:
-        expl.append(
-            "This stock was previously flagged. Now showing stronger momentum — time to scale in."
-        )
+        expl.append("This stock was previously flagged. Now showing stronger momentum — time to scale in.")
 
     if "Full institutional move confirmed." in reasons:
         expl.append("Full bullish confirmation. Strong buy signal.")
 
     if "Repeated weak signals — likely noise." in reasons:
-        expl.append(
-            "Several weak alerts without follow-through. Likely false positive."
-        )
-
+        expl.append("Several weak alerts without follow-through. Likely false positive.")	
+        
     if not expl:
         return ", ".join(reasons)  # fallback
 
     return " ".join(expl)
+
 
 
 def smart_score(row):
@@ -195,11 +176,7 @@ def smart_score(row):
         reasons.append("Weak Candle")
 
     # === Combo behavior ===
-    if (
-        "Price Up" in reasons
-        and "Low Trade Count" in reasons
-        and "Volume Spike" in reasons
-    ):
+    if "Price Up" in reasons and "Low Trade Count" in reasons and "Volume Spike" in reasons:
         reasons.append("Stealth Accumulation")
         score += 20
         signal = "Institutional Accumulation"
@@ -213,43 +190,37 @@ def smart_score(row):
         signal = "Retail Buying Frenzy"
         action = "AVOID"
 
+    
     # === 🧠 Memory-Based Signal Progression Logic ===
-    memory = row.get("memory", [])
+    memory = row.get('memory', [])
     recent_signals = memory[-3:] if memory else []
 
-    # 1️⃣ Progressing setup → BUY
+     # 1️⃣ Progressing setup → BUY								   
     if "⚠️ Setup Detected" in recent_signals and signal == "👀 Watchlist Setup":
         signal = "📈 Progressing Setup"
         action = "BUY SMALL"
         reasons.append("Previously detected setup is strengthening — time to scale in.")
 
-    if (
-        "📈 Progressing Setup" in recent_signals
-        and signal == "Institutional Accumulation"
-    ):
+                                                                    
+    if "📈 Progressing Setup" in recent_signals and signal == "Institutional Accumulation":
         signal = "💥 Institution Moon Alert"
         action = "BUY CONFIRMED"
         reasons.append("Full institutional move confirmed.")
+    
 
-    # 3️⃣ Avoid Decaying Setup
-    if (
-        signal in ["👀 Watchlist Setup", "⚠️ Setup Detected"]
-        and "👀 Watchlist Setup" in recent_signals
-        and "⚠️ Setup Detected" in recent_signals
-    ):
+     # 3️⃣ Avoid Decaying Setup
+    if signal in ["👀 Watchlist Setup", "⚠️ Setup Detected"] and "👀 Watchlist Setup" in recent_signals and "⚠️ Setup Detected" in recent_signals:
         score -= 20
         reasons.append("Repeated weak signals — likely noise.")
         action = "AVOID"
 
     # 4️⃣ Handle potential retest at key level (if signal re-emerges with better volume)
     if signal == "Institutional Accumulation" and "BUY" not in str(action):
-        if (
-            "⚠️ Setup Detected" in recent_signals
-            or "👀 Watchlist Setup" in recent_signals
-        ):
+        if "⚠️ Setup Detected" in recent_signals or "👀 Watchlist Setup" in recent_signals:
             reasons.append("Signal re-emerging — possible retest.")
             score += 10
-            action = "BUY SMALL"
+            action = "BUY SMALL"	
+
 
     # === Signal tier fallback ===
     if not signal:
@@ -265,7 +236,6 @@ def smart_score(row):
 
     return score, reasons, signal, action
 
-
 # === SIGNALS LOGIC ===
 signals = []
 
@@ -275,22 +245,17 @@ for name, group in df.groupby("name"):
     # ✅ Determine lookback window based on data length
     lookback = 5 if len(group) >= 5 else 3
 
-    # === 🔁 Load Memory From DB
+            # === 🔁 Load Memory From DB
     memory_cursor = conn.cursor()
-    memory_cursor.execute(
-        "CREATE TABLE IF NOT EXISTS signal_memory (name TEXT, last_signal TEXT, last_action TEXT, last_close REAL, last_high5 REAL, date TEXT)"
-    )
-    memory_cursor.execute(
-        "SELECT last_signal, last_action, last_close, last_high5 FROM signal_memory WHERE name = ?",
-        (name,),
-    )
+    memory_cursor.execute("CREATE TABLE IF NOT EXISTS signal_memory (name TEXT, last_signal TEXT, last_action TEXT, last_close REAL, last_high5 REAL, date TEXT)")
+    memory_cursor.execute("SELECT last_signal, last_action, last_close, last_high5 FROM signal_memory WHERE name = ?", (name,))
     memory_row = memory_cursor.fetchone()
 
-    last_signal, last_action, last_close, last_high5 = (
-        memory_row if memory_row else (None, None, None, None)
-    )
+    last_signal, last_action, last_close, last_high5 = (memory_row if memory_row else (None, None, None, None))
 
     group["memory"] = [signal_memory.get(name, [])] * len(group)
+    
+    
 
     # === Rolling Calculations with dynamic lookback ===
     group["volume_5_avg"] = group["volume"].rolling(lookback, min_periods=1).mean()
@@ -300,21 +265,18 @@ for name, group in df.groupby("name"):
     group["avg_trades_5"] = group["trades"].rolling(lookback, min_periods=1).mean()
     group["price_5_high"] = group["high"].rolling(lookback, min_periods=1).max()
     group["low_5"] = group["low"].rolling(lookback, min_periods=1).min()
-
+    
     # === 📈 Trend Features (Longer-Term View) ===
     group["volume_15_avg"] = group["volume"].rolling(15, min_periods=5).mean()
     group["volume_uptrend"] = group["volume_15_avg"] > group["volume_15_avg"].shift(5)
 
-    group["inst_footprint"] = (group["volume"] > group["volume_5_avg"]) & (
-        group["trades"] < group["avg_trades_5"]
-    )
+    group["inst_footprint"] = (group["volume"] > group["volume_5_avg"]) & (group["trades"] < group["avg_trades_5"])
     group["inst_accum_30"] = group["inst_footprint"].rolling(30, min_periods=10).sum()
 
     group["price_change_15"] = group["close"].pct_change(periods=15)
     group["volume_change_15"] = group["volume"].pct_change(periods=15)
-    group["stealth_accum"] = (group["volume_change_15"] > 0.3) & (
-        group["price_change_15"] < 0.05
-    )
+    group["stealth_accum"] = (group["volume_change_15"] > 0.3) & (group["price_change_15"] < 0.05)
+
 
     # === Daily Comparisons ===
     group["prev_high"] = group["high"].shift(1)
@@ -331,14 +293,11 @@ for name, group in df.groupby("name"):
     ).round(4) >= 0.099
 
     group["limit_up_streak"] = group["limit_up"].astype(int)
-    group["limit_up_streak"] = (
-        group["limit_up_streak"]
-        .groupby(
-            (group["limit_up_streak"] != group["limit_up_streak"].shift()).cumsum()
-        )
-        .cumsum()
-    )
+    group["limit_up_streak"] = group["limit_up_streak"].groupby(
+        (group["limit_up_streak"] != group["limit_up_streak"].shift()).cumsum()
+    ).cumsum()
     group.loc[~group["limit_up"], "limit_up_streak"] = 0
+
 
     # === Process each row ===
     for i in range(len(group)):
@@ -392,94 +351,51 @@ for name, group in df.groupby("name"):
         if signal:
             low_price = min(row["open"], row["close"])
             high_price = max(row["open"], row["close"])
-            buy_range = (
-                f"₦{low_price:.2f} – ₦{high_price:.2f}"
-                if action and "BUY" in action
-                else "—"
-            )
+            buy_range = f"₦{low_price:.2f} – ₦{high_price:.2f}" if action and "BUY" in action else "—"
 
-            signals.append(
-                {
-                    "name": row["name"],
-                    "date": row["date"].strftime("%Y-%m-%d"),
-                    "signal": signal,
-                    "confidence_score": score,
-                    "volume": row["volume"],
-                    "trades": row["trades"],
-                    "value": row["value"],
-                    "close": row["close"],
-                    "change": row["change"],
-                    "action": action,
-                    "buy_range": buy_range,
-                    "explanation": format_reason_text(reasons, row),
-                    "limit_up_streak": streak,
-                    "signal_tier": (
-                        "confirmed"
-                        if score >= 75
-                        else (
-                            "setup"
-                            if score >= 60
-                            else "watchlist" if score >= 40 else "none"
-                        )
-                    ),
-                    "volume_uptrend": row.get("volume_uptrend", False),
-                    "inst_accum_30": row.get("inst_accum_30", 0),
-                    "stealth_accum": row.get("stealth_accum", False),
-                }
-            )
+            signals.append({
+                "name": row["name"],
+                "date": row["date"].strftime("%Y-%m-%d"),
+                "signal": signal,
+                "confidence_score": score,
+                "volume": row["volume"],
+                "trades": row["trades"],
+                "value": row["value"],
+                "close": row["close"],
+                "change": row["change"],
+                "action": action,
+                "buy_range": buy_range,
+                "explanation": format_reason_text(reasons, row),
+                "limit_up_streak": streak,
+                "signal_tier": "confirmed" if score >= 75 else "setup" if score >= 60 else "watchlist" if score >= 40 else "none",
+                "volume_uptrend": row.get("volume_uptrend", False),
+                "inst_accum_30": row.get("inst_accum_30", 0),
+                "stealth_accum": row.get("stealth_accum", False),
+            })
 
-            memory_cursor.execute(
-                """
-                INSERT OR REPLACE INTO signal_memory (name, last_signal, last_action, last_close, last_high5, date)
-                VALUES (?, ?, ?, ?, ?, ?)
-            """,
-                (
-                    row["name"],
-                    signal,
-                    action,
-                    row["close"],
-                    row.get("price_5_high", row["high"]),
-                    row["date"].strftime("%Y-%m-%d"),
-                ),
-            )
+# === SAVE SIGNALS TO DB ===
+signals_df = pd.DataFrame(signals)
+if not signals_df.empty:
+    unique_dates = signals_df["date"].unique()
+    for d in unique_dates:
+        conn.execute("DELETE FROM signals WHERE date = ?", (d,))
+    signals_df.drop(columns=["open"], inplace=True, errors="ignore")
+    signals_df["date"] = pd.to_datetime(signals_df["date"]).dt.strftime("%Y-%m-%d")
+    signals_df.to_sql("signals", conn, if_exists="append", index=False)
 
-    # === SAVE SIGNALS TO DB ===
-    signals_df = pd.DataFrame(signals)
-
-    if not signals_df.empty:
-        # Drop open if exists
-        signals_df.drop(columns=["open"], inplace=True, errors="ignore")
-
-        # Format date column
-        signals_df["date"] = pd.to_datetime(signals_df["date"]).dt.strftime("%Y-%m-%d")
-
-        # Delete only existing rows with the same name + date
-        for _, row in signals_df.iterrows():
-            conn.execute(
-                "DELETE FROM signals WHERE name = ? AND date = ?",
-                (row["name"], row["date"]),
-            )
-
-        # Insert the new clean rows
-        signals_df.to_sql("signals", conn, if_exists="append", index=False)
-
-        print(f"✅ {len(signals_df)} signals stored in 'signals' table.")
-        print(signals_df.head(3))
-    else:
-        print("⚠️ No signals found (need more days of data).")
-
+    print(f"✅ {len(signals_df)} signals stored in 'signals' table.")
+    print(signals_df.head(3))
+else:
+    print("⚠️ No signals found (need more days of data).")
 
 conn.close()
 
 # === LOG THE RUN ===
 try:
     with open("analyser_log.txt", "a") as f:
-        f.write(
-            f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - Ran analyser.py - {len(signals_df)} signal(s)\n"
-        )
+        f.write(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - Ran analyser.py - {len(signals_df)} signal(s)\n")
 except Exception as e:
     print(f"⚠️ Could not write to log file: {e}")
-
 
 def save_daily_summary(summary_text, action_notes):
     import sqlite3
@@ -487,29 +403,23 @@ def save_daily_summary(summary_text, action_notes):
 
     conn = sqlite3.connect("data/ngx_equities.db")
     cursor = conn.cursor()
-    cursor.execute(
-        """
+    cursor.execute("""
         CREATE TABLE IF NOT EXISTS daily_summary (
             date TEXT PRIMARY KEY,
             summary_text TEXT,
             action_notes TEXT,
             timestamp TEXT
         )
-    """
-    )
+    """)
     today = datetime.now().strftime("%Y-%m-%d")
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    cursor.execute(
-        """
+    cursor.execute("""
         INSERT OR REPLACE INTO daily_summary (date, summary_text, action_notes, timestamp)
         VALUES (?, ?, ?, ?)
-    """,
-        (today, summary_text.strip(), action_notes.strip(), now),
-    )
+    """, (today, summary_text.strip(), action_notes.strip(), now))
     conn.commit()
     conn.close()
     print("📘 Daily summary saved to DB.")
-
 
 # === Compose Summary ===
 summary_text = f"""📊 NGX Market Snapshot — {latest_day.strftime('%Y-%m-%d')}
@@ -538,8 +448,7 @@ action_notes = """🧭 What You Should Do Tomorrow
 # === Save to DB
 save_daily_summary(summary_text, action_notes)
 
-
-# === EMAIL ALERT (If Signals Found) ===
+    # === EMAIL ALERT (If Signals Found) ===
 def send_email(subject, body):
     load_dotenv()
     EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
@@ -566,28 +475,16 @@ def send_email(subject, body):
 
 
 # === BUILD SIGNAL TABLE ===
-
-# Get today's date in the same format as 'date' column
-today = datetime.today().strftime("%Y-%m-%d")
-
-# Ensure 'date' column is datetime if not already
-signals_df["date"] = pd.to_datetime(signals_df["date"]).dt.strftime("%Y-%m-%d")
-
-# Filter for today only
-signals_df_today = signals_df[signals_df["date"] == today]
-
 signal_lines = []
 tomorrow_actions = []
 
-if not signals_df_today.empty:
-    for _, row in signals_df_today.iterrows():
+if not signals_df.empty:
+    for _, row in signals_df.iterrows():
         change_naira = f"₦{row['change']:.2f}"
         confidence = f"{row['confidence_score']}/100"
-        buy_range = row["buy_range"] if row["buy_range"] else "—"
-
-        signal_lines.append(
-            f"{row['name']:<12} {row['signal']:<22} {change_naira:<10} {confidence:<10} {row['action']:<12} {buy_range}"
-        )
+        buy_range = row['buy_range'] if row['buy_range'] else "—"
+        
+        signal_lines.append(f"{row['name']:<12} {row['signal']:<22} {change_naira:<10} {confidence:<10} {row['action']:<12} {buy_range}")
 
         # === ACTION ADVICE BASED ON SIGNAL ===
         if row["signal"] == "Institutional Accumulation":
@@ -614,18 +511,16 @@ if not signals_df_today.empty:
             tomorrow_actions.append(
                 f"- {row['name']}: Potential setup forming. Watch for breakout above ₦{row['close'] + 0.05:.2f}."
             )
+
         elif row["signal"] == "👀 Watchlist Setup":
             tomorrow_actions.append(
                 f"- {row['name']}: Early signs of interest. Add to watchlist — may move soon."
             )
-
-# Format the action notes
-if tomorrow_actions:
-    action_notes = "🧭 What You Should Do Tomorrow\n\n" + "\n".join(tomorrow_actions)
-else:
-    action_notes = (
-        "🧭 What You Should Do Tomorrow\n\n- No actions needed. Watch list only."
-    )
+        # === Format What To Do Tomorrow
+        if tomorrow_actions:
+            action_notes = "🧭 What You Should Do Tomorrow\n\n" + "\n".join(tomorrow_actions)
+        else:
+            action_notes = "🧭 What You Should Do Tomorrow\n\n- No actions needed. Watch list only."
 
 
 # === Format Summary Text (already defined)
@@ -645,9 +540,7 @@ Top Volume:
 if tomorrow_actions:
     action_notes = "🧭 What You Should Do Tomorrow\n\n" + "\n".join(tomorrow_actions)
 else:
-    action_notes = (
-        "🧭 What You Should Do Tomorrow\n\n- No actions needed. Watch list only."
-    )
+    action_notes = "🧭 What You Should Do Tomorrow\n\n- No actions needed. Watch list only."
 
 # === Save summary to DB
 save_daily_summary(summary_text, action_notes)
@@ -658,20 +551,11 @@ signal_table_block = "\n".join(signal_lines) if signal_lines else "No signals to
 
 rows_html = []
 for _, row in signals_df.iterrows():
-    trend_tag = (
-        "<span style='color:#888;'>(trend)</span>"
-        if "uptrend" in row["explanation"].lower()
-        or "institutional accumulation" in row["explanation"].lower()
-        else ""
-    )
+    trend_tag = "<span style='color:#888;'>(trend)</span>" if "uptrend" in row["explanation"].lower() or "institutional accumulation" in row["explanation"].lower() else ""
     row_html = f"<tr><td>{row['name']}</td><td>{row['signal']}{trend_tag}</td><td>{row['change']:.2f}%</td><td>{row['confidence_score']}/100</td><td class='{'buy' if row['action']=='BUY' else 'watch'}'>{row['action']}</td><td>{row['buy_range']}</td></tr>"
     rows_html.append(row_html)
 
-signal_rows = (
-    "".join(rows_html)
-    if not signals_df.empty
-    else "<tr><td colspan='6'>No signals today.</td></tr>"
-)
+signal_rows = ''.join(rows_html) if not signals_df.empty else "<tr><td colspan='6'>No signals today.</td></tr>"
 
 
 full_email = f"""
@@ -757,11 +641,7 @@ full_email = f"""
 print("📋 Checking explanations for trend matches...")
 print(signals_df[["name", "explanation"]])
 
-trend_only = signals_df[
-    signals_df["explanation"].str.contains(
-        "15-day volume uptrend|institutional footprint|stealth", case=False
-    )
-]
+trend_only = signals_df[signals_df["explanation"].str.contains("15-day volume uptrend|institutional footprint|stealth", case=False)]
 
 if not trend_only.empty:
     full_email = full_email.replace("</body></html>", "")  # Temporarily strip footer
@@ -776,3 +656,4 @@ if not trend_only.empty:
 
 # === Send Email
 send_email(f"NGX Summary for {latest_day.strftime('%Y-%m-%d')}", full_email)
+

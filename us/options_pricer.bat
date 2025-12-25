@@ -27,19 +27,6 @@ if %hour% gtr 16 (
     exit /b
 )
 
-
-cd C:\Users\joyag\Projects\ngx_tracker
-
-echo 🔍 Running scraper
-python scraper.py
-
-echo 🔍 Running analyser
-python analyser.py
-
-echo 🔍 Running financial statements
-python ngx_financial_statements_notifier.py
-
-echo 🔍 Running director dealings
-python ngx_director_dealings_scraper.py
-
-echo ✅ All tasks completed.
+@echo off
+cd /d C:\Users\joyag\Projects\ngx_tracker\us
+python options_pricer.py >> log_pricer.txt 2>&1

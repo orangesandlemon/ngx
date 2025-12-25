@@ -1,0 +1,36 @@
+(async function () {
+    let data = [];
+    let scroller = document.querySelector(".dgrid-scroller");
+    let tableSelector = "table.dgrid-row-table tr";
+
+    function grabRows() {
+        let rows = document.querySelectorAll(tableSelector);
+        rows.forEach(r => {
+            let cells = r.querySelectorAll("td");
+            if (cells.length > 0) {
+                let row = {
+                    symbol: cells[0].innerText.trim(),
+                    price: cells[1].innerText.trim(),
+                    qty: cells[2].innerText.trim(),
+                    value: cells[3].innerText.trim(),
+                    change: cells[4].innerText.trim(),
+                    time: cells[5].innerText.trim()
+                };
+                if (!data.find(d => d.symbol === row.symbol && d.time === row.time && d.value === row.value)) {
+                    data.push(row);
+                }
+            }
+        });
+    }
+
+    while (scroller.scrollTop < scroller.scrollHeight - scroller.clientHeight) {
+        grabRows();
+        scroller.scrollBy(0, 500);
+        await new Promise(r => setTimeout(r, 800)); // wait for rows to render
+    }
+    grabRows(); // final batch
+
+    console.log("Collected rows:", data.length);
+    window.allTrades = data;
+    console.log("✅ Done. Type copy(window.allTrades) to copy to clipboard.");
+})();

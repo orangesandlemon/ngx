@@ -1,0 +1,15 @@
+name,stealth_days,buildup_days,buy_days,sell_days,first_signal,last_signal,signal_score,last_date,tier
+COIN,2,0,0,0,2025-06-18,watchlist,6,2025-06-20,watchlist
+META,3,0,0,0,2025-05-30,watchlist,6,2025-06-04,watchlist
+MSFT,2,0,0,0,2025-05-30,watchlist,5,2025-06-20,watchlist
+INTC,2,0,0,0,2025-06-18,watchlist,4,2025-06-20,watchlist
+AAPL,1,0,0,0,2025-06-20,watchlist,3,2025-06-20,watchlist
+BA,1,0,0,0,2025-05-29,watchlist,3,2025-05-29,watchlist
+BABA,1,0,0,0,2025-06-04,watchlist,3,2025-06-04,watchlist
+JPM,1,0,0,0,2025-05-30,watchlist,3,2025-05-30,watchlist
+NFLX,1,0,0,0,2025-05-30,watchlist,3,2025-05-30,watchlist
+PLTR,1,0,0,0,2025-05-30,watchlist,3,2025-05-30,watchlist
+AMD,1,0,0,0,2025-06-20,watchlist,2,2025-06-20,watchlist
+COST,1,0,0,0,2025-05-30,watchlist,2,2025-05-30,watchlist
+WMT,1,0,0,0,2025-05-30,watchlist,2,2025-05-30,watchlist
+XOM,1,0,0,0,2025-05-30,watchlist,2,2025-05-30,watchlist

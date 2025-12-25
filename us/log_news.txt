@@ -1,0 +1,612 @@
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 86: character maps to <undefined>
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 94: character maps to <undefined>
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 89: character maps to <undefined>
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 110: character maps to <undefined>
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 110: character maps to <undefined>
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 110: character maps to <undefined>
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 73: character maps to <undefined>
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 71: character maps to <undefined>
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 71: character maps to <undefined>
+AAPL: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 114, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 101, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 101: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 65: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 65: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 65: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 62: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 107: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 117: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 99: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 107: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 107: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 107: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 111: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 67: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 67: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 121: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 57: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 111: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 83: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 71: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 66: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 85: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 47: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 74: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 74: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 66: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 117: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 106: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 74: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 74: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 74: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 77: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 117: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 111: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 119: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 99: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 98: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 80: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 97: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 97: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 110: character maps to <undefined>
+SPY: 20 headlines fetched
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 164, in <module>
+    process_news()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\joyag\Projects\ngx_tracker\us\news_fetcher.py", line 151, in process_news
+    print(f" {ticker}: {headline}\n   \u2192 Score: {score} | Reason: {reason}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 97: character maps to <undefined>

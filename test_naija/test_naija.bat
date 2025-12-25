@@ -1,3 +1,4 @@
+
 @echo off
 setlocal enabledelayedexpansion
 
@@ -27,19 +28,20 @@ if %hour% gtr 16 (
     exit /b
 )
 
+cd C:\Users\joyag\Projects\ngx_tracker\test_naija
 
-cd C:\Users\joyag\Projects\ngx_tracker
-
-echo 🔍 Running scraper
+echo 🕵️ Running scraper.
 python scraper.py
 
-echo 🔍 Running analyser
-python analyser.py
+echo 🔍 Running Weekly Trade Intelligence...
+python weekly_intel.py
 
-echo 🔍 Running financial statements
-python ngx_financial_statements_notifier.py
+echo 🔍 Running institutional_watch
+python institutional_watch.py
 
-echo 🔍 Running director dealings
-python ngx_director_dealings_scraper.py
+echo 🕵️ Running analyser
+python analyser_test_naija.py
 
 echo ✅ All tasks completed.
+
+

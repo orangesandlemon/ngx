@@ -1,0 +1,168 @@
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[+] Downloading SPY for 2025-05-28 from Yahoo Finance...
+[+] Downloading QQQ for 2025-05-28 from Yahoo Finance...
+[+] Downloading TSLA for 2025-05-28 from Yahoo Finance...
+[+] Downloading AAPL for 2025-05-28 from Yahoo Finance...
+[+] Downloading NVDA for 2025-05-28 from Yahoo Finance...
+[+] Downloading AMD for 2025-05-28 from Yahoo Finance...
+[+] Downloading META for 2025-05-28 from Yahoo Finance...
+[+] Downloading AMZN for 2025-05-28 from Yahoo Finance...
+[-] Dates found in data: ['2025-05-28']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_scraper.py", line 83, in <module>
+    print(f"[\u2713] Stored {len(combined)} rows for {today}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 1: character maps to <undefined>
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[+] Downloading SPY for 2025-05-29 from Yahoo Finance...
+[+] Downloading QQQ for 2025-05-29 from Yahoo Finance...
+[+] Downloading TSLA for 2025-05-29 from Yahoo Finance...
+[+] Downloading AAPL for 2025-05-29 from Yahoo Finance...
+[+] Downloading NVDA for 2025-05-29 from Yahoo Finance...
+[+] Downloading AMD for 2025-05-29 from Yahoo Finance...
+[+] Downloading META for 2025-05-29 from Yahoo Finance...
+[+] Downloading AMZN for 2025-05-29 from Yahoo Finance...
+[-] Dates found in data: ['2025-05-29']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_scraper.py", line 83, in <module>
+    print(f"[\u2713] Stored {len(combined)} rows for {today}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 1: character maps to <undefined>
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[+] Downloading SPY for 2025-05-30 from Yahoo Finance...
+[+] Downloading QQQ for 2025-05-30 from Yahoo Finance...
+[+] Downloading TSLA for 2025-05-30 from Yahoo Finance...
+[+] Downloading AAPL for 2025-05-30 from Yahoo Finance...
+[+] Downloading NVDA for 2025-05-30 from Yahoo Finance...
+[+] Downloading AMD for 2025-05-30 from Yahoo Finance...
+[+] Downloading META for 2025-05-30 from Yahoo Finance...
+[+] Downloading AMZN for 2025-05-30 from Yahoo Finance...
+[-] Dates found in data: ['2025-05-30']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_scraper.py", line 83, in <module>
+    print(f"[\u2713] Stored {len(combined)} rows for {today}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 1: character maps to <undefined>
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[+] Downloading SPY for 2025-05-31 from Yahoo Finance...
+[+] Downloading QQQ for 2025-05-31 from Yahoo Finance...
+[+] Downloading TSLA for 2025-05-31 from Yahoo Finance...
+[+] Downloading AAPL for 2025-05-31 from Yahoo Finance...
+[+] Downloading NVDA for 2025-05-31 from Yahoo Finance...
+[+] Downloading AMD for 2025-05-31 from Yahoo Finance...
+[+] Downloading META for 2025-05-31 from Yahoo Finance...
+[+] Downloading AMZN for 2025-05-31 from Yahoo Finance...
+[-] Dates found in data: ['2025-05-30']
+[x] No valid data found for 2025-05-31. Skipping DB update.
+^C[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[+] Downloading SPY for 2025-06-02 from Yahoo Finance...
+[+] Downloading QQQ for 2025-06-02 from Yahoo Finance...
+[+] Downloading TSLA for 2025-06-02 from Yahoo Finance...
+[+] Downloading AAPL for 2025-06-02 from Yahoo Finance...
+[+] Downloading NVDA for 2025-06-02 from Yahoo Finance...
+[+] Downloading AMD for 2025-06-02 from Yahoo Finance...
+[+] Downloading META for 2025-06-02 from Yahoo Finance...
+[+] Downloading AMZN for 2025-06-02 from Yahoo Finance...
+[-] Dates found in data: ['2025-06-02']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_scraper.py", line 83, in <module>
+    print(f"[\u2713] Stored {len(combined)} rows for {today}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 1: character maps to <undefined>
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[+] Downloading SPY for 2025-06-03 from Yahoo Finance...
+[+] Downloading QQQ for 2025-06-03 from Yahoo Finance...
+[+] Downloading TSLA for 2025-06-03 from Yahoo Finance...
+[+] Downloading AAPL for 2025-06-03 from Yahoo Finance...
+[+] Downloading NVDA for 2025-06-03 from Yahoo Finance...
+[+] Downloading AMD for 2025-06-03 from Yahoo Finance...
+[+] Downloading META for 2025-06-03 from Yahoo Finance...
+[+] Downloading AMZN for 2025-06-03 from Yahoo Finance...
+[-] Dates found in data: ['2025-06-03']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_scraper.py", line 83, in <module>
+    print(f"[\u2713] Stored {len(combined)} rows for {today}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 1: character maps to <undefined>
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[+] Downloading SPY for 2025-06-03 from Yahoo Finance...
+[+] Downloading QQQ for 2025-06-03 from Yahoo Finance...
+[+] Downloading TSLA for 2025-06-03 from Yahoo Finance...
+[+] Downloading AAPL for 2025-06-03 from Yahoo Finance...
+[+] Downloading NVDA for 2025-06-03 from Yahoo Finance...
+[+] Downloading AMD for 2025-06-03 from Yahoo Finance...
+[+] Downloading META for 2025-06-03 from Yahoo Finance...
+[+] Downloading AMZN for 2025-06-03 from Yahoo Finance...
+[-] Dates found in data: ['2025-06-03']
+Traceback (most recent call last):
+  File "C:\Users\joyag\Projects\ngx_tracker\us\us_scraper.py", line 83, in <module>
+    print(f"[\u2713] Stored {len(combined)} rows for {today}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joyag\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 1: character maps to <undefined>

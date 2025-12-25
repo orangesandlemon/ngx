@@ -1,0 +1,31 @@
+import pandas as pd
+import sqlite3  # ✅ Add this import
+
+DB_PATH = "data/omx_equities.db"
+TABLE_NAME = "equities"
+
+conn = sqlite3.connect(DB_PATH)
+
+# Load and clean CSV
+df = pd.read_csv("swedish_stocks_marketcap.csv")
+df = df.rename(columns={"Ticker": "name", "MarketCap": "market_cap"})  # Match with your 'equities' table
+df["market_cap"] = df["market_cap"].fillna(0).astype(int)
+df = df[["name", "market_cap"]]  # Keep only necessary columns
+
+
+# Create/update temporary table
+df.to_sql("market_caps_temp", conn, if_exists="replace", index=False)
+
+# Update equities table
+conn.execute("""
+    UPDATE equities
+    SET market_cap = (
+        SELECT market_cap
+        FROM market_caps_temp
+        WHERE market_caps_temp.name = equities.name
+    )
+    WHERE name IN (SELECT name FROM market_caps_temp);
+""")
+
+conn.commit()  # ✅ Optional but good practice
+conn.close()

@@ -18,28 +18,15 @@ if %day% gtr 5 (
 )
 
 :: Time check: run only between 8am and 5pm (08–16 inclusive)
-if %hour% lss 8 (
-    echo Skipping: Before 8AM
+if %hour% lss 14 (
+    echo Skipping: Before 2PM
     exit /b
 )
-if %hour% gtr 16 (
-    echo Skipping: After 5PM
+if %hour% gtr 22 (
+    echo Skipping: After 10PM
     exit /b
 )
 
-
-cd C:\Users\joyag\Projects\ngx_tracker
-
-echo 🔍 Running scraper
-python scraper.py
-
-echo 🔍 Running analyser
-python analyser.py
-
-echo 🔍 Running financial statements
-python ngx_financial_statements_notifier.py
-
-echo 🔍 Running director dealings
-python ngx_director_dealings_scraper.py
-
-echo ✅ All tasks completed.
+@echo off
+cd C:\Users\joyag\Projects\ngx_tracker\us
+python us_analyser.py 
